@@ -8,7 +8,7 @@
       "name": "UK & Ireland",
       "latitude": 54.0,
       "longitude": -4.0
-    },
+    },x
     {
       "id": "continental-europe",
       "name": "Continental Europe",
@@ -1026,7 +1026,7 @@
         "notes": "Among the hardest bats to acoustically distinguish from its Myotis relatives — its FM sweep can span up to ~100 kHz of bandwidth and is often nearly linear, making the characteristic frequency difficult to pin down and easy to confuse with the little brown myotis and other small Myotis. Its calls are also typically quiet and shorter/more clutter-adapted than open-air Myotis species because it forages by gleaning close to vegetation on a comparatively slow, linear flight path, which further reduces detection range and recording quality. Given the acoustic overlap across the genus and this species' at-risk status, suspected detections should be treated as tentative and, where possible, corroborated by capture, roost survey, or genetic data."
       },
       "conservation": {
-        "iucnStatus": "Near Threatened (global reassessment, 2018; population trend driven largely by white-nose syndrome mortality in eastern North America)",
+        "iucnStatus": "Near Threatened",
         "localStatus": "COSEWIC: Endangered (assessed Nov 2013, following a Feb 2012 emergency assessment); SARA Schedule 1: Endangered (Dec 2014, emergency listing alongside little brown myotis and tri-colored bat). BC Conservation Data Centre: Blue-listed (S2S3, Mar 2022; G2G3 globally, Dec 2021). bcbats.ca rank: E1 (Endangered) / Blue. Also listed as Endangered under the U.S. Endangered Species Act (up-listed from Threatened in Nov 2022, effective Mar 2023) — devastated across its eastern range by white-nose syndrome."
       },
       "habits": {
