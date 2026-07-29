@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "dataVersion": 9,
-  "updatedAt": "2026-07-18T08:04:09Z",
+  "dataVersion": 10,
+  "updatedAt": "2026-07-29T00:44:44Z",
   "regions": [
     {
       "id": "uk-ireland",
       "name": "UK & Ireland",
       "latitude": 54.0,
       "longitude": -4.0
-    },x
+    },
     {
       "id": "continental-europe",
       "name": "Continental Europe",
