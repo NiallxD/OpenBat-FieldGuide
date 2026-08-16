@@ -15,6 +15,12 @@ For what the app is and does, see the
 [app repo](https://github.com/NiallxD/OpenBat-App) — it isn't restated here, so
 there's only one description to keep true.
 
+**Help and privacy live on the website, not in this repo:**
+[help](https://openbat.app/help/) and
+[privacy policy](https://openbat.app/privacy-policy/). This repo used to serve
+its own stub copies of both as a GitHub Pages site; they were placeholders that
+contradicted the real ones, and have been removed.
+
 You don't need to touch app code to add a species, edit an entry, or add a
 region: edit the JSON here and open a PR. Merged changes reach every install on
 next launch, with no app update.
@@ -148,3 +154,22 @@ update, exactly like the guide data.
 repo, which queries GBIF for occurrence records and writes both files side by
 side. Add your species to the guide data and the range data follows on the next
 regeneration.
+
+## Licence
+
+The data in this repo is licensed **[CC BY 4.0](./LICENSE)** — reuse it,
+including commercially, as long as you give credit. Credit "the OpenBat field
+guide contributors" and link back here; per-species credit is recorded in each
+entry's `contributors` array.
+
+By opening a PR you agree your contribution is released under the same licence.
+
+Two things this licence does **not** cover:
+
+- **The OpenBat app.** It lives in [its own repo](https://github.com/NiallxD/OpenBat-App)
+  and is source-available under a much more restrictive notice — readable, but
+  all rights reserved. Nothing here grants any permission over the app's code.
+- **Upstream GBIF terms.** `SpeciesRangeData.json` is derived from GBIF
+  occurrence records whose publishers set their own conditions. CC BY 4.0 covers
+  the compilation as published here; if you redistribute the range data, check
+  the upstream sources.
