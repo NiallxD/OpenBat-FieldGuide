@@ -1,58 +1,23 @@
+# OpenBat — Field Guide
 
-# OpenBat
+The **species field guide data** for the OpenBat iOS app: a single
+community-editable JSON file the app downloads and shows in its Species
+section, plus the range-map coordinates behind it. **This is the canonical
+home for both files and for the schema below.**
 
-This repo is one of three related to this project:
+| Repo | What's in it |
+|---|---|
+| [OpenBat-App](https://github.com/NiallxD/OpenBat-App) | The iOS app itself — what it is, features, how to build it. |
+| [OpenBat-FieldGuide](https://github.com/NiallxD/OpenBat-FieldGuide) | This one — guide data, range data, and how to contribute. |
+| [OpenBat-Website](https://github.com/NiallxD/OpenBat-website) | The website, openbat.app. |
 
-[OpenBat-App](https://github.com/NiallxD/OpenBat-App)
-[OpenBat-FieldGuide](https://github.com/NiallxD/OpenBat-FieldGuide/tree/main)
-[OpenBat-Website](https://github.com/NiallxD/OpenBat-website)
+For what the app is and does, see the
+[app repo](https://github.com/NiallxD/OpenBat-App) — it isn't restated here, so
+there's only one description to keep true.
 
-# What is OpenBat?
-
-OpenBat is an iOS app that turns a compatible ultrasonic USB microphone into
-a live bat detector. It captures audio at up to 384 kHz, shows a real-time
-spectrogram, detects individual echolocation pulses, and, where an openly
-available model exists for the region, identifies the species on-device (currently for North America and Canada only but working on UK/Europe).
-
-## Why
-
-Most tools for identifying bat calls are expensive, proprietary, and hard to
-get hold of, which puts the experience out of reach for a lot of people who'd
-genuinely enjoy it. Free apps that work with ultrasonic microphones already
-exist, but as far as we know, none of them use the open-source machine
-learning models that have been trained on bat echolocation calls. By building
-that identification directly into the app, OpenBat helps people put a name to
-the call they just heard, a small moment of recognition that builds a real
-connection with bats, and a bit more respect for them too.
-
-## Features
-
-- **Real-time spectrogram:** high-resolution frequency-vs-time display with
-  drag-to-scroll history.
-- **Pulse detection & zoom:** isolates each call and renders an
-  onset-aligned close-up.
-- **Species ID:** an on-device classifier names the species, with
-  runner-up and confidence.
-- **Heterodyne & time-expansion listening:** hear the ultrasound live,
-  tuned down or slowed 10×.
-- **Sessions & map:** log passes with a GPS track and see where each was
-  heard.
-- **Community field guide:** a species reference built into the app,
-  covering morphology, echolocation, conservation status and habits (see
-  below).
-
-## Getting started
-
-Connect a compatible (Griff Mini at the moment, but will work on a list soon!) ultrasonic USB microphone, press Start, and point it at
-the sky. Detected passes are logged with their species, confidence, and a
-spectrogram of the pulses. Start a Session to also record a GPS track and
-map where each pass was heard.
-
-## Species Field Guide
-
-This repo also hosts the **Species Field Guide** data, a single
-community-editable JSON file the app downloads and displays in its Species
-section. The rest of this README covers how to contribute to that guide.
+You don't need to touch app code to add a species, edit an entry, or add a
+region: edit the JSON here and open a PR. Merged changes reach every install on
+next launch, with no app update.
 
 ## Contributing a species or region
 
@@ -172,9 +137,14 @@ rename should be its own deliberate PR.
 
 ## Species Range Maps
 
-In addition to the **Species Guide Data** this repo alos holds a JSON file
-with coordinates for the species range maps. This JSON is generated manually
-and is updated periodically. The OpenBat app downloads new versions of this
-file on the fly so no app updates are needed.
+In addition to the **Species Guide Data**, this repo also holds
+[`SpeciesRangeData.json`](./SpeciesRangeData.json) — the coordinates behind the
+range maps. The app fetches it from this repo
+(`SpeciesRangeStore.remoteURL`), so new versions reach installs without an app
+update, exactly like the guide data.
 
-**Please do not touch the SpeciesRangeData.json**
+**Please don't edit `SpeciesRangeData.json` by hand.** It is generated from
+`SpeciesGuideData.json` by `tools/generate_species_range_data.py` in the app
+repo, which queries GBIF for occurrence records and writes both files side by
+side. Add your species to the guide data and the range data follows on the next
+regeneration.
