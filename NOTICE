@@ -1,0 +1,24 @@
+OpenBat Field Guide data
+Copyright (c) 2026 Niall Bell and the OpenBat field guide contributors.
+
+Licensed under the Creative Commons Attribution 4.0 International License
+(CC BY 4.0). You are free to share and adapt this data, including commercially,
+provided you give appropriate credit.
+
+Scope: this licence covers the contents of this repository — SpeciesGuideData.json,
+SpeciesRangeData.json, and this README. It does NOT cover the OpenBat iOS app,
+which is a separate repository (NiallxD/OpenBat-App) published source-available
+under its own, more restrictive notice: all rights reserved, no permission
+granted to reuse the code.
+
+Attribution: credit "the OpenBat field guide contributors" and link to
+https://github.com/NiallxD/OpenBat-FieldGuide. Per-species credit is recorded in
+each entry's `contributors` array in SpeciesGuideData.json.
+
+Note on SpeciesRangeData.json: it is generated from GBIF occurrence records,
+whose publishers license their data under their own terms (commonly CC0, CC BY,
+or CC BY-NC). This licence covers the compilation as published here; if you
+redistribute the range data, check the upstream GBIF sources for conditions that
+travel with them.
+
+The full licence text is in LICENSE.

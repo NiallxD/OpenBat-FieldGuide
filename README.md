@@ -160,7 +160,8 @@ regeneration.
 The data in this repo is licensed **[CC BY 4.0](./LICENSE)** — reuse it,
 including commercially, as long as you give credit. Credit "the OpenBat field
 guide contributors" and link back here; per-species credit is recorded in each
-entry's `contributors` array.
+entry's `contributors` array. [`NOTICE`](./NOTICE) states the scope and
+attribution terms in full.
 
 By opening a PR you agree your contribution is released under the same licence.
 
