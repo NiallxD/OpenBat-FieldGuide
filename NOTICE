@@ -1,9 +1,15 @@
 OpenBat Field Guide data
 Copyright (c) 2026 Niall Bell and the OpenBat field guide contributors.
 
-Licensed under the Creative Commons Attribution 4.0 International License
-(CC BY 4.0). You are free to share and adapt this data, including commercially,
-provided you give appropriate credit.
+Licensed under the Creative Commons Attribution-NonCommercial 4.0
+International License (CC BY-NC 4.0), as of 2026-08-17 — earlier releases were
+CC BY 4.0; the change is not retroactive for copies already lawfully made
+under that licence, but this repository going forward is CC BY-NC. You are
+free to share and adapt this data for non-commercial purposes, provided you
+give appropriate credit. Commercial use — including bulk reuse by a
+commercial product or service — requires the copyright holder's permission.
+This is deliberate: contributors write these entries for OpenBat and its
+community, not to be scraped and resold.
 
 Scope: this licence covers the contents of this repository — SpeciesGuideData.json,
 SpeciesPresenceData.json, and this README. It does NOT cover the OpenBat iOS app,

@@ -147,6 +147,27 @@ exact attribution to use are listed on it directly.
   falls back to a live Wikipedia lookup for any entry without one — imperfect,
   but a reasonable placeholder until someone adds a real `imageURL`.
 
+### Own words
+
+Facts cited, phrasing original — the same shape as the image rule above,
+applied to text instead of pictures.
+
+- **Read the source, then write the entry from what you learned**, not from
+  the source's sentences with a few words swapped. A field guide, handbook,
+  or paper is a fine thing to build an entry from; copying its wording is not,
+  even with a citation in `references` — a citation says where a fact came
+  from, it doesn't license reusing the prose that stated it.
+- **A `references` entry is not an attribution for copied text.** It's a
+  pointer for a reader who wants to verify a claim or go deeper, and it's
+  required either way — but it doesn't turn quoting a source into something
+  this guide's CC BY-NC 4.0 licence can relicense onward. Nobody who reuses this
+  guide's data should end up redistributing someone else's handbook text
+  without knowing it.
+- **A short, genuinely unparaphraseable technical term or measurement is
+  fine** — "peak frequency ~55 kHz" isn't going to read differently no matter
+  who writes it. What this rule is aimed at is sentence- and paragraph-level
+  phrasing, not facts or terms of art.
+
 ### Species Codes
 
 `code` is what lets an entry get a distribution map and show up in "bats near
@@ -220,11 +241,16 @@ replaced outright by the grid above.
 
 ## Licence
 
-The data in this repo is licensed **[CC BY 4.0](./LICENSE)** — reuse it,
-including commercially, as long as you give credit. Credit "the OpenBat field
-guide contributors" and link back here; per-species credit is recorded in each
-entry's `contributors` array. [`NOTICE`](./NOTICE) states the scope and
-attribution terms in full.
+The data in this repo is licensed **[CC BY-NC 4.0](./LICENSE)** — reuse it
+for non-commercial purposes as long as you give credit; commercial reuse
+(including bulk import into another product or service) needs the copyright
+holder's permission. Credit "the OpenBat field guide contributors" and link
+back here; per-species credit is recorded in each entry's `contributors`
+array. [`NOTICE`](./NOTICE) states the scope and attribution terms in full.
+
+Changed 2026-08-17 from CC BY 4.0, specifically to stop contributed entries
+being scraped and resold by a commercial competitor — not retroactive for
+copies already lawfully made under the earlier licence.
 
 By opening a PR you agree your contribution is released under the same licence.
 
@@ -234,6 +260,6 @@ Two things this licence does **not** cover:
   and is source-available under a much more restrictive notice — readable, but
   all rights reserved. Nothing here grants any permission over the app's code.
 - **Upstream GBIF terms.** `SpeciesPresenceData.json` is derived from GBIF
-  occurrence records whose publishers set their own conditions. CC BY 4.0 covers
-  the compilation as published here; if you redistribute the presence data,
-  check the upstream sources.
+  occurrence records whose publishers set their own conditions. CC BY-NC 4.0
+  covers the compilation as published here; if you redistribute the presence
+  data, check the upstream sources.
