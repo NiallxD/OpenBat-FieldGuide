@@ -73,6 +73,9 @@ entry just renders a shorter page rather than empty boxes.
 | `family` | String? | e.g. `"Vespertilionidae"`. |
 | `regions` | [String] | List of region `id`s where this species occurs. |
 | `summary` | String? | Short intro paragraph. |
+| `code` | String? | The species' 4- or 6-letter classifier code — the same short label an OpenBat ID model uses on a detection (e.g. `"PIPPIP"`, `"MYCA"`). **Optional if a bundled ID model already names this species** — the app looks that code up automatically, so leave it unset and one less thing to keep in sync. **Required if no model names it yet** — see "Species Codes" below; without one, this entry gets no distribution map and never appears in "bats near you", because there's nothing to fetch range data under. |
+| `imageURL` | String? | Direct URL to a photo of the species, shown as the hero image on its page. **Must link a Creative Commons–licensed or public-domain image — see "Species Photos" below before adding one.** Leave unset and the app falls back to a live Wikipedia lookup, which is unpredictable (wrong species, a range map instead of a photo, or nothing at all) — setting this is how you fix that for good. |
+| `imageCredit` | String? | Attribution text shown over the photo, e.g. `"Jane Doe, Wikimedia Commons, CC BY-SA 4.0"`. **Required whenever `imageURL` is set** — see "Species Photos" below. Ignored if `imageURL` is unset. |
 | `measurements` | Object? | `forearmMmRange`, `wingspanCmRange`, `weightGRange` (each `{ "min": Double, "max": Double }`), `color` (free text). |
 | `morphology` | Object? | `earType`, `tailType`, `noseType` (free text), `otherFeatures` (array of short strings). |
 | `echolocation` | Object? | `callType` (e.g. `"FM"`, `"CF-FM"`), `peakFreqHzRange` (Pf), `characteristicFreqHzRange` (Cf/knee), `freqHighHzRange` (Fhigh), `freqLowHzRange` (Flow), `durationMsRange` — all `{ "min", "max" }` pairs in Hz/ms — plus free-text `notes` and an optional `exemplarImageName` (must match a bundled app image asset; leave unset if you don't have one). |
@@ -92,6 +95,8 @@ entry just renders a shorter page rather than empty boxes.
   "family": "Vespertilionidae",
   "regions": ["uk-ireland", "continental-europe"],
   "summary": "A small, agile bat that trawls for insects low over still or slow-moving water, using its large feet and tail membrane.",
+  "imageURL": "https://upload.wikimedia.org/wikipedia/commons/x/xx/Myotis_daubentonii_example.jpg",
+  "imageCredit": "Jane Doe, Wikimedia Commons, CC BY-SA 4.0",
   "echolocation": {
     "callType": "FM",
     "peakFreqHzRange": { "min": 45000, "max": 50000 },
@@ -118,6 +123,56 @@ don't overwrite or remove earlier entries.
 See existing entries in `SpeciesGuideData.json` for more complete, real
 examples.
 
+### Species Photos
+
+`imageURL` must link an image you have the right to use — in practice, that
+means **Creative Commons–licensed or public domain**. Wikimedia Commons is
+the easiest source: open the file's page there, and both the licence and the
+exact attribution to use are listed on it directly.
+
+- **No All Rights Reserved images.** Not a photo you found on a search
+  engine, a stock photo site, a blog, or social media, unless its own listed
+  licence is CC or public domain. If you can't find a clear licence statement
+  for an image, don't use it.
+- **Set `imageCredit` to match.** Whatever the source names as the required
+  attribution — typically photographer, source, and licence, e.g.
+  `"Jane Doe, Wikimedia Commons, CC BY-SA 4.0"`. A CC licence is permission to
+  use the image, not a waiver of the credit it requires; an `imageURL`
+  without a matching `imageCredit` is an incomplete entry, not a finished one.
+- **Link the image file directly**, not the page it's embedded on — `imageURL`
+  needs to resolve straight to image bytes (a `.jpg`/`.png`/etc. URL) so the
+  app can load it. On a Wikimedia Commons file page, that's the "Original
+  file" link, not the page URL itself.
+- **Leave both fields unset if you don't have a suitable image.** The app
+  falls back to a live Wikipedia lookup for any entry without one — imperfect,
+  but a reasonable placeholder until someone adds a real `imageURL`.
+
+### Species Codes
+
+`code` is what lets an entry get a distribution map and show up in "bats near
+you" — the app's presence-data generator uses it as the key to fetch and
+store range data under, the same way it already does for every species one
+of OpenBat's ID models can name.
+
+- **Check first whether one already exists.** If this species is named by a
+  bundled ID model, it already has a code — leave `code` unset and the app
+  finds it automatically. Setting it anyway isn't wrong, just redundant; the
+  entries most likely to need this field are ones the models don't cover at
+  all.
+- **Every bat has a code, whether or not a model uses it yet.** If this
+  species is genuinely new to the guide — no ID model names it — you're
+  assigning it a code for the first time. Pick something that reads like the
+  existing ones: 4 letters (NABat style, e.g. `MYCA`) or 6 (BatDetect2 style,
+  e.g. `PIPPIP`), usually built from the genus and species name.
+- **It must be unique.** A code that collides with an existing one — a
+  model's, or another guide entry's — points range data at the wrong species,
+  and the generator that builds it refuses to run until that's fixed. If
+  you're not sure whether a code is taken, open an issue or ask before
+  guessing.
+- **Setting a code doesn't teach the app to identify this species.** It only
+  unlocks the map and the near-you list; ID happens entirely inside the
+  bundled classifier models, which this repo doesn't control.
+
 ### Versioning
 
 - **`dataVersion`**: bump this by 1 for *any* content change, new species,
@@ -141,19 +196,27 @@ the same PR as unrelated content changes, other entries and, in the case
 of species ids, potentially saved user data reference these by string, so a
 rename should be its own deliberate PR.
 
-## Species Range Maps
+## Species Presence Data
 
 In addition to the **Species Guide Data**, this repo also holds
-[`SpeciesRangeData.json`](./SpeciesRangeData.json) — the coordinates behind the
-range maps. The app fetches it from this repo
-(`SpeciesRangeStore.remoteURL`), so new versions reach installs without an app
-update, exactly like the guide data.
+[`SpeciesPresenceData.json`](./SpeciesPresenceData.json) — a coarse global grid
+of where each species actually lives. The app fetches it from this repo, so new
+versions reach installs without an app update, exactly like the guide data. It
+does two jobs at once: it draws the distribution map on a species' page, and it
+decides which species the app's on-device ID engine considers plausible at the
+user's location.
 
-**Please don't edit `SpeciesRangeData.json` by hand.** It is generated from
-`SpeciesGuideData.json` by `tools/generate_species_range_data.py` in the app
-repo, which queries GBIF for occurrence records and writes both files side by
-side. Add your species to the guide data and the range data follows on the next
-regeneration.
+**Please don't edit `SpeciesPresenceData.json` by hand.** It's generated by
+`tools/generate_species_presence_data.py` in the app repo, which queries GBIF
+for occurrence records for every species that has a `code` — either an ID
+model's own species list, or a guide entry that's set its `code` field (see
+"Species Codes" above) for a species no model names. Add a species to the
+guide with a `code`, or wait for a model to add one, and it's picked up
+automatically next time someone regenerates.
+
+`SpeciesRangeData.json`, an older per-occurrence-point format this repo used to
+hold, is gone — nothing in the app has read it since 2026-08-16, when it was
+replaced outright by the grid above.
 
 ## Licence
 
@@ -170,7 +233,7 @@ Two things this licence does **not** cover:
 - **The OpenBat app.** It lives in [its own repo](https://github.com/NiallxD/OpenBat-App)
   and is source-available under a much more restrictive notice — readable, but
   all rights reserved. Nothing here grants any permission over the app's code.
-- **Upstream GBIF terms.** `SpeciesRangeData.json` is derived from GBIF
+- **Upstream GBIF terms.** `SpeciesPresenceData.json` is derived from GBIF
   occurrence records whose publishers set their own conditions. CC BY 4.0 covers
-  the compilation as published here; if you redistribute the range data, check
-  the upstream sources.
+  the compilation as published here; if you redistribute the presence data,
+  check the upstream sources.
