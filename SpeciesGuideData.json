@@ -214,7 +214,10 @@
         "Wikipedia, Big brown bat — https://en.wikipedia.org/wiki/Big_brown_bat",
         "Surlykke & Moss, 'Echolocation behavior of big brown bats, Eptesicus fuscus, in the field and the laboratory', J. Acoust. Soc. Am. — https://pubmed.ncbi.nlm.nih.gov/11108382/",
         "bcbats.ca, Bat Species in BC — https://bcbats.ca/bat-basics/bat-species-in-bc/"
-      ]
+      ],
+      "contributors": [
+          { "name": "Niall Bell", "date": "2026-07-01T00:00:00Z", "note": "Created species profile" }
+        ]
     },
     {
       "id": "myotis-californicus",
@@ -295,7 +298,10 @@
         "Echolocation Call Characteristics of Western North American Bats — Joe Szewczak, Cal Poly Humboldt Bat Lab (SonoBat), https://sonobat.com/download/Western_NA_Bat_Acoustic_Table.pdf",
         "BC Conservation Data Centre Species Summary — Myotis californicus, https://a100.gov.bc.ca/pub/eswp/speciesSummary.do?id=17953",
         "bcbats.ca — Bat Species in BC, https://bcbats.ca/bat-basics/bat-species-in-bc/"
-      ]
+      ],
+      "contributors": [
+          { "name": "Niall Bell", "date": "2026-07-01T00:00:00Z", "note": "Created species profile" }
+        ]
     },
     {
       "id": "parastrellus-hesperus",
@@ -452,7 +458,10 @@
         "Barlow, K.E. & Jones, G. (1997) Function of pipistrelle social calls: field data and a playback experiment. Animal Behaviour, 53(5), 991–999.",
         "Davidson-Watts, I. & Jones, G. (2006) Differences in foraging behaviour between Pipistrellus pipistrellus and Pipistrellus pygmaeus. Journal of Zoology, 268(1), 55–62.",
         "Bat Conservation Trust (2023) Common Pipistrelle. bats.org.uk/about-bats/bat-species-in-the-uk/common-pipistrelle"
-      ]
+      ],
+      "contributors": [
+          { "name": "Niall Bell", "date": "2026-07-01T00:00:00Z", "note": "Created species profile" }
+        ]
     },
     {
       "id": "lasiurus-borealis",
@@ -534,7 +543,10 @@
         "COSEWIC Assessment and Status Report on Hoary Bat, Eastern Red Bat, and Silver-haired Bat in Canada (2023) — https://www.canada.ca/en/environment-climate-change/services/species-risk-public-registry/cosewic-assessments-status-reports/hoary-bat-eastern-red-bat-silver-haired-bat-2023.html",
         "BC Species and Ecosystems Explorer, Lasiurus borealis species summary — https://a100.gov.bc.ca/pub/eswp/speciesSummary.do?id=29449",
         "bcbats.ca, Bat Species in BC — https://bcbats.ca/bat-basics/bat-species-in-bc/"
-      ]
+      ],
+      "contributors": [
+          { "name": "Niall Bell", "date": "2026-07-01T00:00:00Z", "note": "Created species profile" }
+        ]
     },
     {
       "id": "myotis-thysanodes",
@@ -614,7 +626,10 @@
         "COSEWIC, Fringed Bat (Myotis thysanodes) assessment and status report — https://www.canada.ca/en/environment-climate-change/services/species-risk-public-registry/cosewic-assessments-status-reports/fringed-bat.html",
         "BC Ministry of Environment, Identified Wildlife Management Strategy — Fringed Myotis account — https://www.env.gov.bc.ca/wld/frpa/iwms/documents/Mammals/m_fringedmyotis.pdf",
         "Szewczak, J., Cal Poly Humboldt Bat Lab, Echolocation Call Characteristics of Western North American Bats (SonoBat), 2024 — https://sonobat.com/download/Western_NA_Bat_Acoustic_Table.pdf"
-      ]
+      ],
+      "contributors": [
+          { "name": "Niall Bell", "date": "2026-07-01T00:00:00Z", "note": "Created species profile" }
+        ]
     },
     {
       "id": "pteropus-poliocephalus",
@@ -707,7 +722,10 @@
         "COSEWIC Assessment and Status Report on Hoary Bat, Eastern Red Bat, and Silver-haired Bat in Canada (2023) — https://www.canada.ca/en/environment-climate-change/services/species-risk-public-registry/cosewic-assessments-status-reports/hoary-bat-eastern-red-bat-silver-haired-bat-2023.html",
         "bcbats.ca, Bat Species in BC — https://bcbats.ca/bat-basics/bat-species-in-bc/",
         "Koehler, Barclay & Fenton, and other geographic-variation echolocation studies of Lasiurus cinereus (ResearchGate summaries) — https://www.researchgate.net/publication/249542306"
-      ]
+      ],
+      "contributors": [
+          { "name": "Niall Bell", "date": "2026-07-01T00:00:00Z", "note": "Created species profile" }
+        ]
     },
     {
       "id": "myotis-lucifugus",
@@ -799,7 +817,10 @@
         "BC Bats (Community Bat Programs of BC), Bat species in BC — https://bcbats.ca/bat-basics/bat-species-in-bc/",
         "Encyclopedia of Puget Sound, Western Long-eared Myotis (Myotis evotis) — https://www.eopugetsound.org/articles/western-long-eared-myotis-myotis-evotis",
         "Szewczak, J., Cal Poly Humboldt Bat Lab, Echolocation Call Characteristics of Western North American Bats (SonoBat), 2024 — https://sonobat.com/download/Western_NA_Bat_Acoustic_Table.pdf"
-      ]
+      ],
+      "contributors": [
+          { "name": "Niall Bell", "date": "2026-07-01T00:00:00Z", "note": "Created species profile" }
+        ]
     },
     {
       "id": "myotis-volans",
@@ -878,7 +899,10 @@
         "Animal Diversity Web, Myotis volans — https://animaldiversity.org/accounts/Myotis_volans/",
         "BC Bats (Community Bat Programs of BC), Bat species in BC — https://bcbats.ca/bat-basics/bat-species-in-bc/",
         "Szewczak, J., Cal Poly Humboldt Bat Lab, Echolocation Call Characteristics of Western North American Bats (SonoBat), 2024 — https://sonobat.com/download/Western_NA_Bat_Acoustic_Table.pdf"
-      ]
+      ],
+      "contributors": [
+          { "name": "Niall Bell", "date": "2026-07-01T00:00:00Z", "note": "Created species profile" }
+        ]
     },
     {
       "id": "tadarida-brasiliensis",
@@ -962,7 +986,10 @@
         "BC Bats (Community Bat Programs of BC), Bat species in BC — https://bcbats.ca/bat-basics/bat-species-in-bc/",
         "Ommundsen, P., Lausen, C., and Matthias, L. (2017). First Acoustic Records of the Brazilian Free-Tailed Bat (Tadarida brasiliensis) In British Columbia. Northwestern Naturalist — https://www.researchgate.net/publication/319424456",
         "Szewczak, J., Cal Poly Humboldt Bat Lab, Echolocation Call Characteristics of Western North American Bats (SonoBat), 2024 — https://sonobat.com/download/Western_NA_Bat_Acoustic_Table.pdf"
-      ]
+      ],
+      "contributors": [
+          { "name": "Niall Bell", "date": "2026-07-01T00:00:00Z", "note": "Created species profile" }
+        ]
     },
     {
       "id": "myotis-septentrionalis",
@@ -1046,7 +1073,10 @@
         "Echolocation Call Characteristics of Eastern North American Bats — Joe Szewczak, Cal Poly Humboldt Bat Lab (SonoBat), https://sonobat.com/download/Eastern_NA_Acoustic_Table.pdf",
         "BC Conservation Data Centre Species Summary — Myotis septentrionalis, https://a100.gov.bc.ca/pub/eswp/speciesSummary.do?id=16442",
         "bcbats.ca — Bat Species in BC, https://bcbats.ca/bat-basics/bat-species-in-bc/"
-      ]
+      ],
+      "contributors": [
+          { "name": "Niall Bell", "date": "2026-07-01T00:00:00Z", "note": "Created species profile" }
+        ]
     },
     {
       "id": "antrozous-pallidus",
@@ -1128,7 +1158,10 @@
         "SonoBat — Echolocation Call Characteristics of Western North American Bats, https://sonobat.com/download/Western_NA_Bat_Acoustic_Table.pdf",
         "BC Bats (Community Bat Programs of BC) — Bat Species in BC, https://bcbats.ca/bat-basics/bat-species-in-bc/",
         "Texas Parks and Wildlife — Pallid Bat, https://tpwd.texas.gov/huntwild/wild/species/pallid/"
-      ]
+      ],
+      "contributors": [
+          { "name": "Niall Bell", "date": "2026-07-01T00:00:00Z", "note": "Created species profile" }
+        ]
     },
     {
       "id": "lasionycteris-noctivagans",
@@ -1211,7 +1244,10 @@
         "COSEWIC Assessment and Status Report on Hoary Bat, Eastern Red Bat, and Silver-haired Bat in Canada (2023) — https://www.canada.ca/en/environment-climate-change/services/species-risk-public-registry/cosewic-assessments-status-reports/hoary-bat-eastern-red-bat-silver-haired-bat-2023.html",
         "Lausen et al., 'Singing silver-haired bats (Lasionycteris noctivagans)', Wildlife Society Bulletin (2023) — https://wildlife.onlinelibrary.wiley.com/doi/full/10.1002/wsb.1500",
         "bcbats.ca, Bat Species in BC — https://bcbats.ca/bat-basics/bat-species-in-bc/"
-      ]
+      ],
+      "contributors": [
+          { "name": "Niall Bell", "date": "2026-07-01T00:00:00Z", "note": "Created species profile" }
+        ]
     },
     {
       "id": "euderma-maculatum",
@@ -1293,7 +1329,10 @@
         "SonoBat — Echolocation Call Characteristics of Western North American Bats, https://sonobat.com/download/Western_NA_Bat_Acoustic_Table.pdf",
         "BC Bats (Community Bat Programs of BC) — Bat Species in BC, https://bcbats.ca/bat-basics/bat-species-in-bc/",
         "Fullard, J.H. et al. — The echolocation calls of the spotted bat Euderma maculatum are relatively inaudible to moths, PubMed, https://pubmed.ncbi.nlm.nih.gov/9317482/"
-      ]
+      ],
+      "contributors": [
+          { "name": "Niall Bell", "date": "2026-07-01T00:00:00Z", "note": "Created species profile" }
+        ]
     },
     {
       "id": "corynorhinus-townsendii",
@@ -1375,7 +1414,10 @@
         "SonoBat — Echolocation Call Characteristics of Rocky Mountain / Eastern US Bats, https://sonobat.com/download/EasternUS_Acoustic_Table_Mar2011.pdf",
         "BC Bats (Community Bat Programs of BC) — Bat Species in BC, https://bcbats.ca/bat-basics/bat-species-in-bc/",
         "Colorado Parks and Wildlife — Townsend's Big-eared Bat, https://cpw.state.co.us/species/townsends-big-eared-bat"
-      ]
+      ],
+      "contributors": [
+          { "name": "Niall Bell", "date": "2026-07-01T00:00:00Z", "note": "Created species profile" }
+        ]
     },
     {
       "id": "myotis-ciliolabrum",
@@ -1457,7 +1499,10 @@
         "BC Conservation Data Centre Species Summary — Myotis ciliolabrum, https://a100.gov.bc.ca/pub/eswp/speciesSummary.do?id=17143",
         "Western Small-footed Myotis — BC Ministry of Forests species account (BC Timber Sales), https://www2.gov.bc.ca/assets/gov/farming-natural-resources-and-industry/forestry/bc-timber-sales/ems-sfm-certification/business-area/kamloops/western_small-footed_myotis.pdf",
         "bcbats.ca — Bat Species in BC, https://bcbats.ca/bat-basics/bat-species-in-bc/"
-      ]
+      ],
+      "contributors": [
+          { "name": "Niall Bell", "date": "2026-07-01T00:00:00Z", "note": "Created species profile" }
+        ]
     },
     {
       "id": "myotis-yumanensis",
@@ -1539,7 +1584,10 @@
         "Echolocation Call Characteristics of Western North American Bats — Joe Szewczak, Cal Poly Humboldt Bat Lab (SonoBat), https://sonobat.com/download/Western_NA_Bat_Acoustic_Table.pdf",
         "BC Conservation Data Centre Species Summary — Myotis yumanensis, https://a100.gov.bc.ca/pub/eswp/speciesSummary.do?id=14966",
         "bcbats.ca — Bat Species in BC, https://bcbats.ca/bat-basics/bat-species-in-bc/"
-      ]
+      ],
+      "contributors": [
+          { "name": "Niall Bell", "date": "2026-07-01T00:00:00Z", "note": "Created species profile" }
+        ]
     }
   ]
 }
