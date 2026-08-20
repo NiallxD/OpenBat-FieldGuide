@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "dataVersion": 12,
-  "updatedAt": "2026-08-17T20:22:00Z",
+  "dataVersion": 13,
+  "updatedAt": "2026-08-20T06:31:35Z",
   "regions": [
     {
       "id": "uk-ireland",
@@ -233,6 +233,8 @@
         "mexico-central-america"
       ],
       "summary": "One of the smallest bats in British Columbia, the California myotis is an erratic, fluttery flier often seen foraging around trees, cliffs, and buildings at dusk. It is widespread and secure through most of the province, tolerating both dry interior valleys and moister coastal forest.",
+      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/7/70/Myotis_californicus.jpg",
+      "imageCredit": "The High Fin Sperm Whale, CC BY-SA 3.0, via Wikimedia Commons",
       "measurements": {
         "forearmMmRange": {
           "min": 30.0,
@@ -317,6 +319,8 @@
         "mexico-central-america"
       ],
       "summary": "The smallest bat in the United States and Canada, the canyon bat (formerly known as the western pipistrelle) is a tiny, weak-flying species of rocky desert and canyon country. It is only an accidental vagrant in British Columbia, recorded far north of its core range in the arid US Southwest.",
+      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Canyon_Bat.jpg",
+      "imageCredit": "Bob Johnson, CC BY-SA 4.0, via Wikimedia Commons",
       "measurements": {
         "forearmMmRange": {
           "min": 27.0,
@@ -397,6 +401,8 @@
         "continental-europe"
       ],
       "summary": "One of the smallest and most widespread European bats. Echolocates with FM sweeps ending around 45 kHz; a fast, erratic flier commonly seen at dusk around gardens, hedgerows and waterways.",
+      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/9/93/Zwergfledermaus_%28Pipistrellus_pipistrellus%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+      "imageCredit": "Klaus Krahn, CC BY-SA 4.0, via Wikimedia Commons",
       "measurements": {
         "forearmMmRange": {
           "min": 27.0,
@@ -478,6 +484,8 @@
         "mexico-central-america"
       ],
       "summary": "A brightly coloured, solitary tree-roosting bat of eastern and central North America. The eastern red bat is only a rare, likely vagrant or wind-farm-fatality record in British Columbia — the province lies at the far northwestern edge of its known range, with confirmed BC records limited to a genetically-verified 1905 museum specimen and turbine-mortality finds in the northeast of the province.",
+      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/1/19/Lasiurus_borealis1.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+      "imageCredit": "Susan Ellis, Bugwoord.org, CC BY 3.0 US, via Wikimedia Commons",
       "measurements": {
         "forearmMmRange": {
           "min": 36.0,
@@ -562,6 +570,8 @@
         "mexico-central-america"
       ],
       "summary": "One of the larger western Myotis, unmistakable up close for the fringe of stiff hairs lining the trailing edge of its tail membrane. In Canada it is a rare species restricted to a single intermontane valley in south-central BC, where it roosts in caves, mines, cliffs, and old buildings and forages for beetles with slow, highly maneuverable flight near the canopy.",
+      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/8/88/Myotis_Thysanodes_Cluster_%2844290176760%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+      "imageCredit": "mypubliclands, Public domain, via Wikimedia Commons",
       "measurements": {
         "forearmMmRange": {
           "min": 37.0,
@@ -657,6 +667,8 @@
         "mexico-central-america"
       ],
       "summary": "The largest bat in Canada, the hoary bat is a solitary, tree-roosting species named for its frosted, hoary-tipped fur. A powerful long-distance migrant, it summers across most of BC's forests and is one of the species most frequently killed by wind turbines during fall migration.",
+      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/9/94/Grey_headed_flying_fox_-_eating_figs_-_AndrewMercer_IMG42296.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+      "imageCredit": "Andrew Mercer (www.baldwhiteguy.co.nz), CC BY-SA 4.0, via Wikimedia Commons",
       "measurements": {
         "forearmMmRange": {
           "min": 46.0,
@@ -740,7 +752,9 @@
         "america-east",
         "america-west"
       ],
-      "summary": "Once among the most common bats in North America, now heavily impacted by white-nose syndrome. Calls sweep from about 80 kHz down to 40 kHz; forages over water and along forest edges."
+      "summary": "Once among the most common bats in North America, now heavily impacted by white-nose syndrome. Calls sweep from about 80 kHz down to 40 kHz; forages over water and along forest edges.",
+      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/1/18/Little_Brown_Bat_%285688118054%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+      "imageCredit": "J Jongsma from Minneapolis, United States, CC BY-SA 2.0, via Wikimedia Commons"
     },
     {
       "id": "myotis-evotis",
@@ -922,6 +936,8 @@
         "south-america-south"
       ],
       "summary": "A free-tailed bat of the family Molossidae — not a vespertilionid like BC's other bats — built for fast, high-altitude flight with long narrow wings and a tail extending well beyond its membrane. Its core range across the southern US, Mexico, and Central and South America hosts the largest bat colonies on Earth (including Bracken Cave, Texas); it is only an accidental vagrant this far north, with the first confirmed BC acoustic records published in 2017.",
+      "imageURL": "https://commons.wikimedia.org/wiki/File:Mexican_free-tailed_bat_(8006856842).jpg",
+      "imageCredit": "U.S. Fish and Wildlife Service Headquarters, Public domain, via Wikimedia Commons",
       "measurements": {
         "forearmMmRange": {
           "min": 41.0,
