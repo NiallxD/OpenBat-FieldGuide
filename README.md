@@ -217,6 +217,27 @@ the same PR as unrelated content changes, other entries and, in the case
 of species ids, potentially saved user data reference these by string, so a
 rename should be its own deliberate PR.
 
+### Formatting
+
+`SpeciesGuideData.json` is kept in one exact layout: two-space indentation,
+every object expanded, and no trailing `.0` on whole numbers, which is what
+`JSON.stringify(data, null, 2)` produces. Please keep it that way.
+
+This isn't housekeeping, it's what makes a pull request readable. JSON doesn't
+care where the line breaks go, but git diffs lines of text, so a file saved in
+a different layout reports every reformatted line as changed. Before this was
+settled, a genuine one-sentence edit came out as **248 insertions and 184
+deletions** with the real change buried in it; in the canonical layout the same
+edit is **two lines**. If you edit by hand and your editor reflows the file,
+reformat it back before opening the PR:
+
+```sh
+node -e "const f='SpeciesGuideData.json',fs=require('fs');fs.writeFileSync(f,JSON.stringify(JSON.parse(fs.readFileSync(f,'utf8')),null,2)+'\n')"
+```
+
+The [field guide editor](https://openbat.app/guide-editor/) writes this layout
+already, so an edit made there needs nothing extra.
+
 ## Species Presence Data
 
 In addition to the **Species Guide Data**, this repo also holds
