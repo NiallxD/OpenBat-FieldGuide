@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "dataVersion": 13,
-  "updatedAt": "2026-08-20T06:31:35Z",
+  "dataVersion": 14,
+  "updatedAt": "2026-08-20T07:21:11Z",
   "regions": [
     {
       "id": "uk-ireland",
@@ -146,7 +146,7 @@
         "caribbean",
         "south-america-north"
       ],
-      "summary": "One of the most widespread and familiar bats in North America, the big brown bat is a robust, glossy brown vespertilionid that readily roosts in buildings, bridges, and bat houses across BC in addition to natural rock crevices and tree cavities. A hardy generalist forager, it is among the most secure and least-at-risk bat species in the province.",
+      "summary": "One of the most widespread and familiar bats in North America, the big brown bat is a robust, glossy brown vespertilionid that readily roosts in buildings, bridges, and bat houses across BC in addition to natural rock crevices and tree cavities. A hardy generalist forager, it is among the most secure and least-at-risk bat species in its range.",
       "imageURL": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Big_brown_bat_crawl.png",
       "imageCredit": "John MacGregor (Land Between the Lakes KY/TN), Public domain, via Wikimedia Commons",
       "measurements": {
