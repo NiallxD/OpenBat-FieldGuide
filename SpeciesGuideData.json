@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "dataVersion": 15,
-  "updatedAt": "2026-08-20T16:27:45Z",
+  "dataVersion": 16,
+  "updatedAt": "2026-08-20T17:16:41Z",
   "regions": [
     {
       "id": "uk-ireland",
@@ -687,8 +687,8 @@
         "mexico-central-america"
       ],
       "summary": "The largest bat in Canada, the hoary bat is a solitary, tree-roosting species named for its frosted, hoary-tipped fur. A powerful long-distance migrant, it summers across most of BC's forests and is one of the species most frequently killed by wind turbines during fall migration.",
-      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/9/94/Grey_headed_flying_fox_-_eating_figs_-_AndrewMercer_IMG42296.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
-      "imageCredit": "Andrew Mercer (www.baldwhiteguy.co.nz), CC BY-SA 4.0, via Wikimedia Commons",
+      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Hoary_bat_closeup.jpg",
+      "imageCredit": "RatioTile, CC BY-SA 4.0, via Wikimedia Commons",
       "measurements": {
         "forearmMmRange": {
           "min": 46,
@@ -762,6 +762,11 @@
           "name": "Niall Bell",
           "date": "2026-07-01T00:00:00Z",
           "note": "Created species profile"
+        },
+        {
+          "name": "Niall Bell",
+          "date": "2026-08-20T17:16:35Z",
+          "note": "Updated the photograph. It had been erroneously set as the wrong species."
         }
       ]
     },
