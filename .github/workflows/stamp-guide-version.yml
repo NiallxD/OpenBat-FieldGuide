@@ -1,4 +1,9 @@
-# Stamps the guide's version fields on main, once per merge.
+# Two things, both after main moves: stamp the guide's version fields, then
+# re-apply every open submission onto the new main.
+#
+# They are one workflow so the order is guaranteed. Re-applying first would
+# rebuild branches onto a version that is about to be bumped out from under
+# them, and they would need rebuilding again.
 #
 # The submission worker deliberately leaves `dataVersion` and `updatedAt` alone,
 # so a pull request branch never touches those lines and two open submissions
@@ -6,8 +11,15 @@
 # unless this workflow does — remove it and changes stop reaching devices,
 # silently, while every pull request still looks fine.
 #
-# The push below is made with GITHUB_TOKEN, and GitHub does not trigger
+# The pushes below are made with GITHUB_TOKEN, and GitHub does not trigger
 # workflows from those pushes, so this cannot loop.
+#
+# Why re-applying is needed at all, when the version fields are no longer the
+# problem: git merges this file as lines, and a NEW species is inserted before
+# the first entry with a greater id — which only separates two additions if an
+# existing entry sorts between them. Two bats in the same genus have nothing
+# between them and land on the same lines. rebase-open-prs.mjs merges by species
+# instead, which is what the file actually contains.
 
 name: Stamp guide version
 
@@ -18,6 +30,7 @@ on:
 
 permissions:
   contents: write
+  pull-requests: read
 
 # Two merges in quick succession must stamp one at a time, or the second run
 # reads the version the first hasn't pushed yet and they both write the same
@@ -60,3 +73,29 @@ jobs:
           # rare, and the file only ever gains the two stamped lines here.
           git pull --rebase origin main
           git push origin HEAD:main
+
+  # Runs after the stamp so it re-applies branches onto the version main will
+  # actually have, rather than onto one that is about to be bumped out from
+  # under them.
+  reapply:
+    needs: stamp
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # `rebuild` reads each branch's merge base, which needs real history.
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Re-apply open guide pull requests onto main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git fetch -q origin main
+          git checkout -q -B main origin/main
+          node .github/scripts/rebase-open-prs.mjs
