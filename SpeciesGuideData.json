@@ -1157,10 +1157,15 @@
           "name": "Niall Bell",
           "date": "2026-08-27T04:24:40Z",
           "note": "Added a new photo."
+        },
+        {
+          "name": "Niall Bell",
+          "date": "2026-08-27T23:27:47Z",
+          "note": "Changed the photo."
         }
       ],
-      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Northern_long-eared_bat_%285881232758%29.jpg",
-      "imageCredit": "U.S. Fish and Wildlife Service Headquarters, CC BY 2.0, via Wikimedia Commons"
+      "imageURL": "https://inaturalist-open-data.s3.amazonaws.com/photos/469644977/original.jpeg",
+      "imageCredit": "Nick Cairns, some rights reserved (CC BY-NC)"
     },
     {
       "id": "myotis-thysanodes",
