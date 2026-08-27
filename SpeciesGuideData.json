@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "dataVersion": 16,
-  "updatedAt": "2026-08-20T17:16:41Z",
+  "dataVersion": 17,
+  "updatedAt": "2026-08-27T04:33:43Z",
   "regions": [
     {
       "id": "uk-ireland",
@@ -1500,8 +1500,15 @@
           "name": "Niall Bell",
           "date": "2026-07-01T00:00:00Z",
           "note": "Created species profile"
+        },
+        {
+          "name": "Niall Bell",
+          "date": "2026-08-27T04:33:39Z",
+          "note": "Added a new photo."
         }
-      ]
+      ],
+      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Townsend%27s_big-eared_bat_%28Corynorhinus_townsendii%29_%28aa1c78cd-80aa-4d56-951b-4e1c480c1bf1%29.jpg",
+      "imageCredit": "NPS Photo, Public domain, via Wikimedia Commons"
     },
     {
       "id": "myotis-ciliolabrum",
