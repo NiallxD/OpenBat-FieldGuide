@@ -1150,8 +1150,15 @@
           "name": "Niall Bell",
           "date": "2026-07-01T00:00:00Z",
           "note": "Created species profile"
+        },
+        {
+          "name": "Niall Bell",
+          "date": "2026-08-27T04:24:40Z",
+          "note": "Added a new photo."
         }
-      ]
+      ],
+      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Northern_long-eared_bat_%285881232758%29.jpg",
+      "imageCredit": "U.S. Fish and Wildlife Service Headquarters, CC BY 2.0, via Wikimedia Commons"
     },
     {
       "id": "antrozous-pallidus",
