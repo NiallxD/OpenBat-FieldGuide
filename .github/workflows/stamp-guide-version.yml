@@ -1,0 +1,62 @@
+# Stamps the guide's version fields on main, once per merge.
+#
+# The submission worker deliberately leaves `dataVersion` and `updatedAt` alone,
+# so a pull request branch never touches those lines and two open submissions
+# can't conflict over them. The consequence is that nothing bumps the version
+# unless this workflow does — remove it and changes stop reaching devices,
+# silently, while every pull request still looks fine.
+#
+# The push below is made with GITHUB_TOKEN, and GitHub does not trigger
+# workflows from those pushes, so this cannot loop.
+
+name: Stamp guide version
+
+on:
+  push:
+    branches: [main]
+    paths: ['SpeciesGuideData.json']
+
+permissions:
+  contents: write
+
+# Two merges in quick succession must stamp one at a time, or the second run
+# reads the version the first hasn't pushed yet and they both write the same
+# number.
+concurrency:
+  group: stamp-guide-version
+  cancel-in-progress: false
+
+jobs:
+  stamp:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Bump dataVersion and updatedAt
+        run: node .github/scripts/stamp-version.mjs
+
+      - name: Commit to main
+        run: |
+          set -euo pipefail
+
+          if git diff --quiet -- SpeciesGuideData.json; then
+            echo "Nothing changed — leaving main alone."
+            exit 0
+          fi
+
+          version=$(node -p "require('./SpeciesGuideData.json').dataVersion")
+
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add SpeciesGuideData.json
+          git commit -m "Bump the field guide to dataVersion ${version}"
+
+          # A merge landing while this ran would make the push non-fast-forward.
+          # Rebasing re-applies the bump on top; the concurrency group makes this
+          # rare, and the file only ever gains the two stamped lines here.
+          git pull --rebase origin main
+          git push origin HEAD:main
