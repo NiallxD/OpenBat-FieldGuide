@@ -247,6 +247,24 @@ model's code) plus every guide entry no model names (keyed by its `id` slug —
 see "Range Maps and Species Codes" above). Add a species to the guide and it's
 picked up automatically next time someone regenerates.
 
+### What each species entry holds
+
+Two different things, and the app draws both — a toggle on the species page
+switches between them.
+
+| Field | What it is |
+|---|---|
+| `cells` | The **modelled range**: cells with records, plus a one-cell buffer around them and a bridge across short gaps. Delta-encoded ascending indices, re-accumulated on load. This is what the ID engine consults. |
+| `months` | Month bitmask per cell, currently zero throughout — GBIF's density endpoint carries no dates. Zero means "no seasonal information", not "never recorded". |
+| `observed` | The subset of `cells` that actually holds records, delta-encoded the same way. Everything in `cells` but not here is inferred from its surroundings. |
+| `counts` | Records per cell, aligned to `observed`. |
+| `breaks` | Three record counts splitting this species' cells into four shading tiers. Per species, because per-cell counts run from single figures to six figures depending on how well recorded the bat is. |
+| `records`, `taxonKeys` | Total GBIF records, and the taxa they were unioned from. |
+
+`observed`, `counts` and `breaks` were added in `dataVersion` 4 and are
+optional: an app build that predates them ignores them and draws the range flat,
+so the file stays readable by older installs.
+
 `SpeciesRangeData.json`, an older per-occurrence-point format this repo used to
 hold, is gone — nothing in the app has read it since 2026-08-16, when it was
 replaced outright by the grid above.
