@@ -1329,8 +1329,15 @@
           "name": "Niall Bell",
           "date": "2026-07-01T00:00:00Z",
           "note": "Created species profile"
+        },
+        {
+          "name": "Niall Bell",
+          "date": "2026-08-27T04:30:16Z",
+          "note": "Added a new photo."
         }
-      ]
+      ],
+      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Lasionycteris_noctivagans_203332988_%28cropped%29.jpg",
+      "imageCredit": "Pete Lypkie, CC BY 4.0, via Wikimedia Commons"
     },
     {
       "id": "euderma-maculatum",
