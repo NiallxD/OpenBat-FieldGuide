@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "dataVersion": 16,
-  "updatedAt": "2026-08-20T17:16:41Z",
+  "dataVersion": 17,
+  "updatedAt": "2026-08-27T03:29:23Z",
   "regions": [
     {
       "id": "uk-ireland",
@@ -882,7 +882,7 @@
         "america-west",
         "mexico-central-america"
       ],
-      "summary": "A medium-sized Myotis of western forests, recognizable by its keeled calcar and the band of fur that extends onto the underside of the wing membrane from the body to the knee. Long-legged myotis are fast, high-flying foragers that specialize heavily on moths, and in BC they hibernate almost exclusively in caves after using tall dead snags for summer roosting.",
+      "summary": "A medium-sized Myotis of western forests, recognisable by its keeled calcar and the band of fur that extends onto the underside of the wing membrane from the body to the knee. Long-legged myotis are fast, high-flying foragers that specialise heavily on moths, and in BC they hibernate almost exclusively in caves after using tall dead snags for summer roosting.",
       "measurements": {
         "forearmMmRange": {
           "min": 35.2,
@@ -931,7 +931,7 @@
           "min": 3,
           "max": 5
         },
-        "notes": "Belongs to the '40 kHz myotis' guild along with M. lucifugus and M. ciliolabrum; calls under ~3.5 ms are essentially indistinguishable between these species. M. volans calls tend to stay steeper through the body of the call than other 40 kHz myotids and occasionally show a diagnostic upward sweep at call onset. Acoustically very similar to M. evotis, though M. evotis calls are typically less frequency-modulated and have a lower characteristic frequency."
+        "notes": "Belongs to the '40 kHz myotis' guild along with M. lucifugus and M. ciliolabrum; calls under ~3.5 ms are essentially indistinguishable between these species. M. volans calls tend to stay steeper through the body of the call than other 40 kHz myotids and occasionally show a diagnostic upward sweep at call onset. Acoustically very similar to M. evotis, though M. evotis calls are typically less frequency-modulated (FM) and have a lower characteristic frequency."
       },
       "conservation": {
         "iucnStatus": "Least Concern",
@@ -940,7 +940,7 @@
       "habits": {
         "roosting": "Summer maternity roosts favor tall snags (especially Douglas-fir) with loose, peeling bark, occasionally buildings; winter hibernation occurs almost exclusively in caves, with additional roosting in cliffs, rock crevices, and stumps reported in BC.",
         "migration": "Generally considered a short-distance, elevational migrant, moving between higher-elevation summer range and lower-elevation or cave hibernacula; climate warming may be disrupting the timing of spring down-slope movement.",
-        "feeding": "Fast, high aerial-hawking forager over open areas and forest canopy; diet dominated by soft-bodied insects, especially moths (Lepidoptera), with some flies, termites, lacewings, wasps, leafhoppers and small beetles.",
+        "feeding": "Fast, high aerial-hawking forager over open areas and forest canopy; diet dominated by soft-bodied insects, especially moths (Lepidoptera), with some flies, termites, lacewings, wasps, leafhoppers, and small beetles.",
         "reproduction": "Polygynandrous mating system; breeding occurs May–August with spermatogenesis in males and delayed ovulation in females (March–May); a single pup is born per year, reaching reproductive maturity at roughly 152 days.",
         "other": "Females show slightly longer forearms and larger canines than males, likely linked to reproductive demands."
       },
@@ -954,8 +954,15 @@
           "name": "Niall Bell",
           "date": "2026-07-01T00:00:00Z",
           "note": "Created species profile"
+        },
+        {
+          "name": "Niall Bell",
+          "date": "2026-08-27T03:29:13Z",
+          "note": "New image provided, fixed some typos and tweaked a few section wording."
         }
-      ]
+      ],
+      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Bats_of_the_Medford_District_%2853303732370%29.jpg",
+      "imageCredit": "BLM Oregon & Washington, Public domain, via Wikimedia Commons"
     },
     {
       "id": "tadarida-brasiliensis",
