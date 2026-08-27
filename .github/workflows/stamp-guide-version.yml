@@ -27,6 +27,11 @@ on:
   push:
     branches: [main]
     paths: ['SpeciesGuideData.json']
+  # Re-apply on demand, without bumping the version: useful to unstick pull
+  # requests by hand, and the only way to exercise the reapply job without a
+  # merge. `stamp` is skipped on a manual run — the version counts merges, and
+  # pressing a button isn't one.
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -41,6 +46,7 @@ concurrency:
 
 jobs:
   stamp:
+    if: github.event_name == 'push'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -79,6 +85,7 @@ jobs:
   # under them.
   reapply:
     needs: stamp
+    if: always() && needs.stamp.result != 'failure'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
