@@ -1651,6 +1651,16 @@
           "name": "Niall Bell",
           "date": "2026-08-28T00:58:27Z",
           "note": "Added a photo, body measurements, and some info about morphology + references."
+        },
+        {
+          "name": "Niall Bell",
+          "date": "2026-08-28T01:00:22Z",
+          "note": "Added IUCN status."
+        }
+      ],
+      "conservation": {
+        "iucnStatus": "Vulnerable"
+      }
         }
       ]
     },
