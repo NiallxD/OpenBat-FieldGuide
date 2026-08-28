@@ -1614,7 +1614,45 @@
       "regions": [
         "australia-east"
       ],
-      "summary": "A large fruit bat endemic to eastern Australia with a wingspan up to a metre. Does not echolocate — it navigates by sight and smell, and is a keystone pollinator and seed disperser."
+      "summary": "A large fruit bat endemic to eastern Australia with a wingspan up to a metre. Does not echolocate — it navigates by sight and smell, and is a keystone pollinator and seed disperser.",
+      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Grey_headed_flying_fox_-_taking_off_-_AndrewMercer_IMG41558.jpg",
+      "imageCredit": "Andrew Mercer (www.baldwhiteguy.co.nz), CC BY-SA 4.0, via Wikimedia Commons",
+      "measurements": {
+        "forearmMmRange": {
+          "min": 138,
+          "max": 180
+        },
+        "wingspanCmRange": {
+          "min": 100,
+          "max": 100
+        },
+        "weightGRange": {
+          "min": 600,
+          "max": 1000
+        },
+        "color": "Light brown with rufous shoulders and upper back."
+      },
+      "echolocation": {
+        "notes": "Grey-headed flying fox do not echolocate."
+      },
+      "morphology": {
+        "earType": "Small lacking enlarged Tagus features",
+        "noseType": "Simple unlike echolocating bats",
+        "otherFeatures": [
+          "Grey-headed flying fox do not poses the ear and node features found in other bats because they do not echolocate and instead rely on their eyes for navigation."
+        ]
+      },
+      "references": [
+        "DeHaven, C. 2005. \"Pteropus poliocephalus\" (On-line), Animal Diversity Web. Accessed August 27, 2026 at https://animaldiversity.org/accounts/Pteropus_poliocephalus/ Last updated: 2005-03-04 /Generated: 2026-03-29 20:09",
+        "Menkhorst, P.W.; Knight, F. (2011). A field guide to the mammals of Australia (3rd ed.). Melbourne: Oxford University Press. p. 146. ISBN 978-0-19 557395-4."
+      ],
+      "contributors": [
+        {
+          "name": "Niall Bell",
+          "date": "2026-08-28T00:58:27Z",
+          "note": "Added a photo, body measurements, and some info about morphology + references."
+        }
+      ]
     },
     {
       "id": "tadarida-brasiliensis",
