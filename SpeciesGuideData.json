@@ -1068,7 +1068,15 @@
       ],
       "summary": "Once among the most common bats in North America, now heavily impacted by white-nose syndrome. Calls sweep from about 80 kHz down to 40 kHz; forages over water and along forest edges.",
       "imageURL": "https://upload.wikimedia.org/wikipedia/commons/1/18/Little_Brown_Bat_%285688118054%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
-      "imageCredit": "J Jongsma from Minneapolis, United States, CC BY-SA 2.0, via Wikimedia Commons"
+      "imageCredit": "J Jongsma from Minneapolis, United States, CC BY-SA 2.0, via Wikimedia Commons",
+      "group": "Vesper Bat",
+      "contributors": [
+        {
+          "name": "Niall Bell",
+          "date": "2026-09-01T04:40:48Z",
+          "note": "Created and added group."
+        }
+      ]
     },
     {
       "id": "myotis-septentrionalis",
