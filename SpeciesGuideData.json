@@ -1,0 +1,1795 @@
+{
+  "schemaVersion": 1,
+  "dataVersion": 24,
+  "updatedAt": "2026-09-01T04:42:22Z",
+  "regions": [
+    {
+      "id": "uk-ireland",
+      "name": "UK & Ireland",
+      "latitude": 54,
+      "longitude": -4
+    },
+    {
+      "id": "continental-europe",
+      "name": "Continental Europe",
+      "latitude": 48.5,
+      "longitude": 10
+    },
+    {
+      "id": "canada-east",
+      "name": "Eastern Canada",
+      "latitude": 58,
+      "longitude": -81
+    },
+    {
+      "id": "canada-west",
+      "name": "Western Canada",
+      "latitude": 58,
+      "longitude": -113.7
+    },
+    {
+      "id": "america-east",
+      "name": "Eastern US",
+      "latitude": 38,
+      "longitude": -81
+    },
+    {
+      "id": "america-west",
+      "name": "Western US",
+      "latitude": 38,
+      "longitude": -113.7
+    },
+    {
+      "id": "australia-east",
+      "name": "Eastern Australia",
+      "latitude": -30,
+      "longitude": 150
+    },
+    {
+      "id": "mexico-central-america",
+      "name": "Mexico & Central America",
+      "latitude": 17,
+      "longitude": -92
+    },
+    {
+      "id": "caribbean",
+      "name": "Caribbean",
+      "latitude": 18.5,
+      "longitude": -70
+    },
+    {
+      "id": "south-america-north",
+      "name": "Northern South America",
+      "latitude": -3,
+      "longitude": -60
+    },
+    {
+      "id": "south-america-south",
+      "name": "Southern South America",
+      "latitude": -35,
+      "longitude": -65
+    },
+    {
+      "id": "west-africa",
+      "name": "West Africa",
+      "latitude": 9,
+      "longitude": -2
+    },
+    {
+      "id": "east-africa",
+      "name": "East Africa",
+      "latitude": 1,
+      "longitude": 37
+    },
+    {
+      "id": "southern-africa",
+      "name": "Southern Africa",
+      "latitude": -27,
+      "longitude": 24
+    },
+    {
+      "id": "north-africa-middle-east",
+      "name": "North Africa & Middle East",
+      "latitude": 27,
+      "longitude": 30
+    },
+    {
+      "id": "south-asia",
+      "name": "South Asia",
+      "latitude": 22,
+      "longitude": 79
+    },
+    {
+      "id": "southeast-asia",
+      "name": "Southeast Asia",
+      "latitude": 5,
+      "longitude": 110
+    },
+    {
+      "id": "east-asia",
+      "name": "East Asia",
+      "latitude": 35,
+      "longitude": 105
+    },
+    {
+      "id": "central-asia",
+      "name": "Central Asia",
+      "latitude": 45,
+      "longitude": 68
+    },
+    {
+      "id": "australia-west",
+      "name": "Western Australia",
+      "latitude": -25,
+      "longitude": 122
+    },
+    {
+      "id": "new-zealand-pacific",
+      "name": "New Zealand & Pacific Islands",
+      "latitude": -41,
+      "longitude": 174
+    }
+  ],
+  "species": [
+    {
+      "id": "antrozous-pallidus",
+      "commonName": "Pallid Bat",
+      "scientificName": "Antrozous pallidus",
+      "order": "Chiroptera",
+      "family": "Vespertilionidae",
+      "regions": [
+        "canada-west",
+        "america-west",
+        "mexico-central-america"
+      ],
+      "summary": "A pale, large-eared bat best known for hunting on the ground — it drops onto scorpions, crickets, and other large arthropods and even small vertebrates, locating them by listening for footsteps and rustling rather than by echolocation alone. In Canada it reaches the very northern edge of its range in the dry valleys of south-central British Columbia.",
+      "measurements": {
+        "forearmMmRange": {
+          "min": 45,
+          "max": 60
+        },
+        "wingspanCmRange": {
+          "min": 34,
+          "max": 41
+        },
+        "weightGRange": {
+          "min": 17,
+          "max": 28
+        },
+        "color": "Cream-yellow to light brown dorsal fur, pale to whitish venter; woolly-textured pelage."
+      },
+      "morphology": {
+        "earType": "Large, separate (not joined at the base), with a long pointed tragus roughly half the length of the ear",
+        "tailType": "Included in the interfemoral membrane, extending slightly beyond it",
+        "noseType": "Distinctive U-shaped ridge across the muzzle with nostrils opening beneath it; small wart-like pararhinal glands that can emit a skunk-like musky odor",
+        "otherFeatures": [
+          "Large, forward-set eyes for a vesper bat",
+          "Broad wings suited to slow, maneuverable flight and short glides",
+          "Strong hind limbs adapted for landing on and walking over the ground"
+        ]
+      },
+      "echolocation": {
+        "callType": "Low-intensity, downward FM sweep, produced mainly for orientation/obstacle avoidance rather than prey detection while ground-gleaning",
+        "peakFreqHzRange": {
+          "min": 25000,
+          "max": 30000
+        },
+        "characteristicFreqHzRange": {
+          "min": 26000,
+          "max": 29000
+        },
+        "freqHighHzRange": {
+          "min": 55000,
+          "max": 60000
+        },
+        "freqLowHzRange": {
+          "min": 12000,
+          "max": 15000
+        },
+        "durationMsRange": {
+          "min": 2,
+          "max": 10
+        },
+        "notes": "Search-phase calls sweep steeply downward from roughly 60 kHz to below 15-30 kHz; because pallid bats primarily use passive listening (rustling, footsteps) to find ground prey, their echolocation is comparatively sparse and low-intensity, which can make them under-detected by passive acoustic monitoring relative to their true abundance."
+      },
+      "conservation": {
+        "iucnStatus": "Least Concern",
+        "localStatus": "COSEWIC: Threatened (T1, per bcbats.ca), listed on Schedule 1 of the federal Species at Risk Act; BC Conservation Data Centre: Red-listed (S1 — critically imperiled); Canadian population estimated at only 250-1000 individuals, restricted to the south Okanagan/Similkameen area of BC."
+      },
+      "habits": {
+        "roosting": "Day roosts in rock crevices, cliff faces, rock outcrops, and buildings; also uses tree cavities/snags and mines; separate, more open night roosts (porches, bridges, open buildings) are used for feeding and social activity. BC summer records suggest occasional building use; winter roosting sites include rock crevices, cliffs, snags, buildings, mines, and orchards.",
+        "migration": "Largely sedentary/non-migratory, moving only short distances to nearby hibernation sites; overwinters in torpor rather than making long migrations.",
+        "feeding": "A ground-gleaning specialist — flies low (15-75 cm) over open ground, then drops onto large arthropod prey such as scorpions, crickets, katydids, grasshoppers, beetles, and centipedes, and occasionally small lizards; also takes some prey on the wing.",
+        "reproduction": "Mating occurs in autumn/winter with delayed fertilization via sperm storage; gestation roughly 53-71 days; females typically bear twins (occasionally a single pup) in late May-June; young become volant and independent by about 6-7 weeks, reaching adult size near one year.",
+        "other": "Highly social within roosts, often forming small maternity colonies; sensitive to pesticide-driven declines in large-arthropod prey and to disturbance/loss of roost structures."
+      },
+      "references": [
+        "Animal Diversity Web — Antrozous pallidus, https://animaldiversity.org/accounts/Antrozous_pallidus/",
+        "IUCN Red List — Antrozous pallidus, https://www.iucnredlist.org/species/1790/22129152",
+        "COSEWIC Assessment and Update Status Report on the Pallid Bat, Environment and Climate Change Canada, https://wildlife-species.canada.ca/species-risk-registry/virtual_sara/files/cosewic/sr_pallid_bat_2000_e.pdf",
+        "Recovery Strategy for the Pallid Bat (Antrozous pallidus) in Canada, https://www.registrelep-sararegistry.gc.ca/virtual_sara/files/plans/rs_pallid_bat_e_final.pdf",
+        "SonoBat — Echolocation Call Characteristics of Western North American Bats, https://sonobat.com/download/Western_NA_Bat_Acoustic_Table.pdf",
+        "BC Bats (Community Bat Programs of BC) — Bat Species in BC, https://bcbats.ca/bat-basics/bat-species-in-bc/",
+        "Texas Parks and Wildlife — Pallid Bat, https://tpwd.texas.gov/huntwild/wild/species/pallid/"
+      ],
+      "contributors": [
+        {
+          "name": "Niall Bell",
+          "date": "2026-07-01T00:00:00Z",
+          "note": "Created species profile"
+        }
+      ],
+      "group": "Vesper Bat"
+    },
+    {
+      "id": "corynorhinus-townsendii",
+      "commonName": "Townsend's Big-eared Bat",
+      "scientificName": "Corynorhinus townsendii",
+      "order": "Chiroptera",
+      "family": "Vespertilionidae",
+      "regions": [
+        "canada-west",
+        "america-west",
+        "america-east",
+        "mexico-central-america"
+      ],
+      "summary": "Instantly recognizable by its enormous, rabbit-like ears and the paired glandular lumps on its nose, Townsend's big-eared bat is a quiet, low-intensity 'whisper' echolocator that gleans moths from foliage. In BC it is restricted mainly to the dry Okanagan and Thompson valleys, where it roosts in caves, mines, cliffs, and increasingly in buildings and purpose-built bat houses.",
+      "measurements": {
+        "forearmMmRange": {
+          "min": 39,
+          "max": 48
+        },
+        "wingspanCmRange": {
+          "min": 28,
+          "max": 32
+        },
+        "weightGRange": {
+          "min": 5,
+          "max": 14
+        },
+        "color": "Fur color varies geographically from pale cinnamon-brown to slate gray on the back, slightly paler below; hair bases dark."
+      },
+      "morphology": {
+        "earType": "Enormous (>25 mm), joined at the base across the forehead by a low band; curled back like ram's horns when resting or torpid",
+        "tailType": "Long, included in the interfemoral membrane",
+        "noseType": "Two large, fleshy, wart-like glandular lumps on either side of the muzzle, used for scent-marking — a diagnostic feature",
+        "otherFeatures": [
+          "Broad, relatively short wings suited to slow, highly maneuverable flight and hovering",
+          "Long, distinctive tragus",
+          "Can fully retract/curl the huge ears without losing hearing sensitivity"
+        ]
+      },
+      "echolocation": {
+        "callType": "Low-intensity ('whisper') FM sweep, often with an upswept onset; a soft, difficult-to-detect call adapted for gleaning prey from vegetation",
+        "peakFreqHzRange": {
+          "min": 21000,
+          "max": 26000
+        },
+        "characteristicFreqHzRange": {
+          "min": 22000,
+          "max": 25000
+        },
+        "freqHighHzRange": {
+          "min": 35000,
+          "max": 57000
+        },
+        "freqLowHzRange": {
+          "min": 15000,
+          "max": 18000
+        },
+        "durationMsRange": {
+          "min": 2,
+          "max": 6
+        },
+        "notes": "Calls are very quiet relative to most vespertilionids ('whisper bat'), so this species is often under-recorded by passive acoustic detectors even where locally common. Simple FM downsweep; the second harmonic can sometimes exceed the fundamental in recorded maximum frequency, which can confuse automatic classifiers."
+      },
+      "conservation": {
+        "iucnStatus": "Least Concern (globally); note that two isolated US subspecies, Ozark and Virginia big-eared bat, are federally Endangered in the US",
+        "localStatus": "BC Conservation Data Centre: Blue-listed; assessed by COSEWIC; Canadian range restricted essentially to the southern interior of BC (Okanagan/Thompson/Similkameen valleys)."
+      },
+      "habits": {
+        "roosting": "Roosts in open-ceilinged spaces — caves, mines, cliff overhangs, and increasingly buildings and large, well-designed bat houses in BC — hanging free rather than wedging into crevices; extremely sensitive to human disturbance, which readily causes colonies to abandon a roost.",
+        "migration": "Not a long-distance migrant; moves between separate summer and winter roost sites, generally within the same general area, and hibernates in caves/mines/rock crevices from late fall to mid-spring at cool but above-freezing temperatures.",
+        "feeding": "Diet is dominated (often >80%) by moths, gleaned from foliage and captured in flight, supplemented by beetles, flies, and other small insects; highly maneuverable, low, fluttering flight along forest edges and over shrub-steppe.",
+        "reproduction": "Mating peaks November-February; sperm stored by females until spring fertilization; gestation roughly 56-100 days depending on temperature/torpor use; typically a single pup born in late spring/early summer, weaned around 6 weeks; females breed in their first autumn, males typically after their first year.",
+        "other": "Forms conspicuous, clustered maternity colonies that are highly vulnerable to disturbance or roost loss; a priority species for BC bat house and mine-gate conservation programs."
+      },
+      "references": [
+        "Animal Diversity Web — Corynorhinus townsendii, https://animaldiversity.org/accounts/Corynorhinus_townsendii/",
+        "NatureServe Explorer — Corynorhinus townsendii, https://explorer.natureserve.org/Taxon/ELEMENT_GLOBAL.2.103228/Corynorhinus_townsendii",
+        "Washington Department of Fish and Wildlife — Corynorhinus townsendii, https://wdfw.wa.gov/species-habitats/species/corynorhinus-townsendii",
+        "SonoBat — Echolocation Call Characteristics of Rocky Mountain / Eastern US Bats, https://sonobat.com/download/EasternUS_Acoustic_Table_Mar2011.pdf",
+        "BC Bats (Community Bat Programs of BC) — Bat Species in BC, https://bcbats.ca/bat-basics/bat-species-in-bc/",
+        "Colorado Parks and Wildlife — Townsend's Big-eared Bat, https://cpw.state.co.us/species/townsends-big-eared-bat"
+      ],
+      "contributors": [
+        {
+          "name": "Niall Bell",
+          "date": "2026-07-01T00:00:00Z",
+          "note": "Created species profile"
+        },
+        {
+          "name": "Niall Bell",
+          "date": "2026-08-27T04:33:39Z",
+          "note": "Added a new photo."
+        }
+      ],
+      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Townsend%27s_big-eared_bat_%28Corynorhinus_townsendii%29_%28aa1c78cd-80aa-4d56-951b-4e1c480c1bf1%29.jpg",
+      "imageCredit": "NPS Photo, Public domain, via Wikimedia Commons",
+      "group": "Vesper Bat"
+    },
+    {
+      "id": "eptesicus-fuscus",
+      "commonName": "Big Brown Bat",
+      "scientificName": "Eptesicus fuscus",
+      "order": "Chiroptera",
+      "family": "Vespertilionidae",
+      "regions": [
+        "canada-west",
+        "canada-east",
+        "america-west",
+        "america-east",
+        "mexico-central-america",
+        "caribbean",
+        "south-america-north"
+      ],
+      "summary": "One of the most widespread and familiar bats in North America, the big brown bat is a robust, glossy brown vespertilionid that readily roosts in buildings, bridges, and bat houses across BC in addition to natural rock crevices and tree cavities. A hardy generalist forager, it is among the most secure and least-at-risk bat species in its range.",
+      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Big_brown_bat_crawl.png",
+      "imageCredit": "John MacGregor (Land Between the Lakes KY/TN), Public domain, via Wikimedia Commons",
+      "measurements": {
+        "forearmMmRange": {
+          "min": 42,
+          "max": 52
+        },
+        "wingspanCmRange": {
+          "min": 32.5,
+          "max": 35
+        },
+        "weightGRange": {
+          "min": 15,
+          "max": 26
+        },
+        "color": "Pinkish-tan to rich chocolate-brown fur dorsally, paler pinkish to olive-buff ventrally; bare skin of the face, ears, wings, and tail membrane is black and glossy."
+      },
+      "morphology": {
+        "earType": "Short, rounded, black, naked ears with a short, curved tragus",
+        "tailType": "Tail extends slightly beyond the free edge of the sparsely-furred uropatagium (tail membrane)",
+        "noseType": "Broad, simple, unspecialized muzzle (no nose-leaf)",
+        "otherFeatures": [
+          "Robust, heavy-bodied build relative to other vespertilionids",
+          "Keeled calcar",
+          "Glossy fur",
+          "Strong, direct flight; one of the largest bats regularly found in buildings"
+        ]
+      },
+      "echolocation": {
+        "callType": "Steep downward FM sweep, typically with a second harmonic; duration and bandwidth vary strongly with clutter and behavioural context",
+        "peakFreqHzRange": {
+          "min": 25000,
+          "max": 30000
+        },
+        "characteristicFreqHzRange": {
+          "min": 25000,
+          "max": 27000
+        },
+        "freqHighHzRange": {
+          "min": 50000,
+          "max": 65000
+        },
+        "freqLowHzRange": {
+          "min": 20000,
+          "max": 25000
+        },
+        "durationMsRange": {
+          "min": 3,
+          "max": 20
+        },
+        "notes": "In open, uncluttered airspace produces long (14–20 ms), narrow-bandwidth, low-frequency (Fmin ~22–25 kHz) search calls; in wooded/cluttered settings switches to shorter (6–11 ms), broader-bandwidth calls with a higher minimum frequency (~27–30 kHz) — signal duration and minimum frequency are inversely correlated. Distinguished from silver-haired bat mainly by steeper sweep and typically shorter, less QCF-dominated calls; distinguished from hoary bat by higher characteristic frequency."
+      },
+      "conservation": {
+        "iucnStatus": "Least Concern (global)",
+        "localStatus": "Not federally assessed as at-risk (not included in the 2023 COSEWIC migratory-tree-bat assessment); considered secure/Not at Risk in British Columbia. bcbats.ca rank: Not at risk."
+      },
+      "habits": {
+        "roosting": "Highly adaptable — commonly roosts in buildings, barns, bridges, and bat houses, as well as under loose bark and in tree cavities/snags and rock crevices; increasingly reliant on human structures as natural forest habitat is lost. Winters in snags, caves, mines, and rock/cliff crevices.",
+        "migration": "Largely non-migratory to short-distance migrant/regional mover; typically hibernates relatively close to summer range rather than undertaking the long-distance seasonal migrations seen in tree bats like the hoary and silver-haired bat.",
+        "feeding": "A generalist insectivore that feeds heavily on beetles (including agricultural pest species) along with leafhoppers, moths, and other insects; reproductive females can consume close to their body weight in insects nightly, making the species an important agricultural pest suppressor.",
+        "reproduction": "Mates in fall before hibernation; fertilization is delayed until spring ovulation. After roughly 60 days' gestation, females give birth to one or two pups (litter size varies regionally), typically by early summer; young are flying within a few weeks.",
+        "other": "Can live up to ~19 years in the wild; over-winter fat reserves are critical, and most mortality in the species occurs in first-winter juveniles that fail to store adequate fat."
+      },
+      "references": [
+        "Animal Diversity Web, Eptesicus fuscus — https://animaldiversity.org/accounts/Eptesicus_fuscus/",
+        "Bat Conservation International, Big Brown Bat profile — https://www.batcon.org/bat/eptesicus-fuscus/",
+        "Wikipedia, Big brown bat — https://en.wikipedia.org/wiki/Big_brown_bat",
+        "Surlykke & Moss, 'Echolocation behavior of big brown bats, Eptesicus fuscus, in the field and the laboratory', J. Acoust. Soc. Am. — https://pubmed.ncbi.nlm.nih.gov/11108382/",
+        "bcbats.ca, Bat Species in BC — https://bcbats.ca/bat-basics/bat-species-in-bc/"
+      ],
+      "contributors": [
+        {
+          "name": "Niall Bell",
+          "date": "2026-07-01T00:00:00Z",
+          "note": "Created species profile"
+        },
+        {
+          "name": "Niall Bell",
+          "date": "2026-09-01T04:40:15Z",
+          "note": "Added Group"
+        }
+      ],
+      "group": "Vesper Bat"
+    },
+    {
+      "id": "euderma-maculatum",
+      "commonName": "Spotted Bat",
+      "scientificName": "Euderma maculatum",
+      "order": "Chiroptera",
+      "family": "Vespertilionidae",
+      "regions": [
+        "canada-west",
+        "america-west",
+        "mexico-central-america"
+      ],
+      "summary": "One of North America's most distinctive bats, the spotted bat has jet-black fur marked with three bold white spots and enormous pink, translucent ears. Its echolocation call is pitched so low that much of it falls within human hearing range, and it specializes in hunting large moths over open shrub-steppe and canyon country.",
+      "measurements": {
+        "forearmMmRange": {
+          "min": 48,
+          "max": 51
+        },
+        "wingspanCmRange": {
+          "min": 34,
+          "max": 36
+        },
+        "weightGRange": {
+          "min": 16,
+          "max": 20
+        },
+        "color": "Black dorsal fur with three prominent white spots (one on each shoulder, one on the rump); black face; venter paler with dark underfur; ears and wing membranes pale pink and translucent."
+      },
+      "morphology": {
+        "earType": "Enormous — up to ~47-50 mm, the largest ears relative to body size of any North American bat; pink, translucent, and can be curled back like a ram's horn at rest",
+        "tailType": "Long, fully enclosed in the interfemoral membrane",
+        "noseType": "Simple, no noseleaf; black muzzle",
+        "otherFeatures": [
+          "Three-spot black-and-white pattern unique among North American bats",
+          "Long, narrow wings adapted for fast, open-air flight",
+          "One of very few bats whose echolocation calls are partly audible to humans"
+        ]
+      },
+      "echolocation": {
+        "callType": "Low-frequency, low-duty-cycle FM sweep (simple linear downsweep, sometimes with a mild inflection)",
+        "peakFreqHzRange": {
+          "min": 9000,
+          "max": 12000
+        },
+        "characteristicFreqHzRange": {
+          "min": 9500,
+          "max": 11000
+        },
+        "freqHighHzRange": {
+          "min": 12000,
+          "max": 16000
+        },
+        "freqLowHzRange": {
+          "min": 6000,
+          "max": 9000
+        },
+        "durationMsRange": {
+          "min": 5,
+          "max": 21
+        },
+        "notes": "Unmistakable acoustically: the spotted bat is the only bat in its range whose search-phase calls regularly fall around 10 kHz, well below every other North American species (most of which call above 20 kHz). Calls are audible to many humans as faint clicks. Low frequency and low intensity are thought to be an adaptation to avoid detection by eared moths."
+      },
+      "conservation": {
+        "iucnStatus": "Least Concern",
+        "localStatus": "COSEWIC: Special Concern (SC1, per bcbats.ca); BC Conservation Data Centre: Blue-listed (S3S4 — vulnerable to apparently secure); protected from killing under the BC Wildlife Act."
+      },
+      "habits": {
+        "roosting": "Roosts singly or in very small numbers in narrow cracks and crevices high on tall cliffs and rock outcrops, occasionally to elevations near 3000 m; shows strong fidelity to the same day roost through summer.",
+        "migration": "Not a long-distance migrant; shows seasonal elevational movement, using higher-elevation forest in early summer and shifting to lower elevations later in the season. Winter roosting/hibernation sites are poorly documented, likely cliffs and mine/rock crevices.",
+        "feeding": "Specializes on large moths, captured in open airspace over meadows, shrub-steppe, and riparian corridors; may commute over 30-35 km between day roost and foraging grounds; forages mainly from late evening to the early morning hours.",
+        "reproduction": "Single pup born typically in June (twinning not reported); pups are relatively large at birth (~20% of maternal mass); lactation continues into August.",
+        "other": "Named for its highly distinctive spotted pattern; considered rare/uncommon throughout its range and difficult to survey visually, but readily detected acoustically because of its unique low call frequency."
+      },
+      "references": [
+        "Animal Diversity Web — Euderma maculatum, https://animaldiversity.org/accounts/Euderma_maculatum/",
+        "Bat Conservation International — Euderma maculatum, https://www.batcon.org/bat/euderma-maculatum/",
+        "NatureServe Explorer — Euderma maculatum, https://explorer.natureserve.org/Taxon/ELEMENT_GLOBAL.2.104813/Euderma_maculatum",
+        "COSEWIC Assessment and Status Report on the Spotted Bat, Environment and Climate Change Canada, https://www.canada.ca/en/environment-climate-change/services/species-risk-public-registry/cosewic-assessments-status-reports/spotted-bat-update.html",
+        "SonoBat — Echolocation Call Characteristics of Western North American Bats, https://sonobat.com/download/Western_NA_Bat_Acoustic_Table.pdf",
+        "BC Bats (Community Bat Programs of BC) — Bat Species in BC, https://bcbats.ca/bat-basics/bat-species-in-bc/",
+        "Fullard, J.H. et al. — The echolocation calls of the spotted bat Euderma maculatum are relatively inaudible to moths, PubMed, https://pubmed.ncbi.nlm.nih.gov/9317482/"
+      ],
+      "contributors": [
+        {
+          "name": "Niall Bell",
+          "date": "2026-07-01T00:00:00Z",
+          "note": "Created species profile"
+        }
+      ],
+      "group": "Vesper Bat"
+    },
+    {
+      "id": "lasionycteris-noctivagans",
+      "commonName": "Silver-haired Bat",
+      "scientificName": "Lasionycteris noctivagans",
+      "order": "Chiroptera",
+      "family": "Vespertilionidae",
+      "regions": [
+        "canada-west",
+        "canada-east",
+        "america-west",
+        "america-east",
+        "mexico-central-america"
+      ],
+      "summary": "A medium-sized, slow-flying forest bat named for its blackish fur frosted with silvery-white tips. Closely tied to old-growth and mature forest with abundant snags in BC, the silver-haired bat is unusual in being a 'migratory hibernator' — some individuals migrate south while others overwinter locally in tree cavities and rock crevices.",
+      "measurements": {
+        "forearmMmRange": {
+          "min": 37,
+          "max": 44
+        },
+        "wingspanCmRange": {
+          "min": 27,
+          "max": 31
+        },
+        "weightGRange": {
+          "min": 8,
+          "max": 12
+        },
+        "color": "Blackish-brown to nearly black fur with silvery-white tipped hairs on the back, producing a frosted or silvered sheen; fur is glossy and relatively long."
+      },
+      "morphology": {
+        "earType": "Short (15–17 mm), rounded, hairless ears with a short, blunt tragus",
+        "tailType": "Basal (proximal) half of the tail membrane densely furred on the dorsal surface; distal half naked — unlike most other North American bats",
+        "noseType": "Simple, blunt, unspecialized muzzle",
+        "otherFeatures": [
+          "Known to produce audible 'singing' social/courtship calls",
+          "Slow, fluttery, moth-like flight",
+          "Strongly associated with old-growth forest and high snag density (≥21 snags/ha)",
+          "One of the first bats active at dusk"
+        ]
+      },
+      "echolocation": {
+        "callType": "Multiharmonic FM search-approach call: an initial steep frequency sweep followed by a shallower, near-constant-frequency tail",
+        "peakFreqHzRange": {
+          "min": 25000,
+          "max": 30000
+        },
+        "characteristicFreqHzRange": {
+          "min": 26000,
+          "max": 30000
+        },
+        "freqHighHzRange": {
+          "min": 32000,
+          "max": 36000
+        },
+        "freqLowHzRange": {
+          "min": 20000,
+          "max": 25000
+        },
+        "durationMsRange": {
+          "min": 4,
+          "max": 10
+        },
+        "notes": "Calls overlap in frequency with big brown bat but are typically produced at a slower repetition rate with more pronounced QCF tail component; successive chirps within a phrase tend to rise in frequency (~4 kHz per chirp), a useful distinguishing pattern in sequences."
+      },
+      "conservation": {
+        "iucnStatus": "Least Concern (global)",
+        "localStatus": "COSEWIC: Endangered (assessed May 2023 jointly with hoary and eastern red bats, largely due to wind-turbine mortality; not yet on SARA Schedule 1). bcbats.ca / historical BC assessment: Not at risk provincially — BC represents a substantial portion of the species' Canadian range and hosts secure breeding populations, though the 2023 federal COSEWIC assessment now flags rangewide population declines from wind-energy mortality."
+      },
+      "habits": {
+        "roosting": "Forms small maternity colonies almost exclusively in tree cavities, hollows, and under loose bark (especially cottonwoods and other snags), relocating roosts frequently through the breeding season. Winters in tree cavities, under bark, in wood or rock piles, mine adits, and occasionally cave entrances.",
+        "migration": "A 'migratory hibernator' — a portion of the population undertakes long-distance seasonal migration to southern regions while other individuals hibernate locally within forested habitat, using torpor through the winter.",
+        "feeding": "Feeds on small, soft-bodied insects (moths, midges, mosquitoes, leafhoppers, flies, small beetles), hunting over water, along forest edges/roadways, and sometimes at treetop level in disturbed or open areas.",
+        "reproduction": "Mating occurs mainly in fall before migration/hibernation; females store sperm over winter, ovulate in spring, and give birth (after ~50–60 day gestation) to one or typically two pups in late spring.",
+        "other": "Heavily dependent on retention of dead and dying trees (snags) in managed forests; loss of old-growth and snag habitat is considered a key regional conservation concern in BC alongside wind-turbine mortality."
+      },
+      "references": [
+        "Animal Diversity Web, Lasionycteris noctivagans — https://animaldiversity.org/accounts/Lasionycteris_noctivagans/",
+        "Bat Conservation International, Silver-haired Bat profile — https://www.batcon.org/bat/lasionycteris-noctivagans/",
+        "COSEWIC Assessment and Status Report on Hoary Bat, Eastern Red Bat, and Silver-haired Bat in Canada (2023) — https://www.canada.ca/en/environment-climate-change/services/species-risk-public-registry/cosewic-assessments-status-reports/hoary-bat-eastern-red-bat-silver-haired-bat-2023.html",
+        "Lausen et al., 'Singing silver-haired bats (Lasionycteris noctivagans)', Wildlife Society Bulletin (2023) — https://wildlife.onlinelibrary.wiley.com/doi/full/10.1002/wsb.1500",
+        "bcbats.ca, Bat Species in BC — https://bcbats.ca/bat-basics/bat-species-in-bc/"
+      ],
+      "contributors": [
+        {
+          "name": "Niall Bell",
+          "date": "2026-07-01T00:00:00Z",
+          "note": "Created species profile"
+        },
+        {
+          "name": "Niall Bell",
+          "date": "2026-08-27T04:30:16Z",
+          "note": "Added a new photo."
+        }
+      ],
+      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Lasionycteris_noctivagans_203332988_%28cropped%29.jpg",
+      "imageCredit": "Pete Lypkie, CC BY 4.0, via Wikimedia Commons",
+      "group": "Vesper Bat"
+    },
+    {
+      "id": "lasiurus-borealis",
+      "commonName": "Eastern Red Bat",
+      "scientificName": "Lasiurus borealis",
+      "order": "Chiroptera",
+      "family": "Vespertilionidae",
+      "regions": [
+        "canada-west",
+        "canada-east",
+        "america-east",
+        "mexico-central-america"
+      ],
+      "summary": "A brightly coloured, solitary tree-roosting bat of eastern and central North America. The eastern red bat is only a rare, likely vagrant or wind-farm-fatality record in British Columbia — the province lies at the far northwestern edge of its known range, with confirmed BC records limited to a genetically-verified 1905 museum specimen and turbine-mortality finds in the northeast of the province.",
+      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/1/19/Lasiurus_borealis1.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+      "imageCredit": "Susan Ellis, Bugwoord.org, CC BY 3.0 US, via Wikimedia Commons",
+      "measurements": {
+        "forearmMmRange": {
+          "min": 36,
+          "max": 46
+        },
+        "wingspanCmRange": {
+          "min": 29,
+          "max": 33
+        },
+        "weightGRange": {
+          "min": 9,
+          "max": 15
+        },
+        "color": "Brick-red to yellowish-orange or rusty-red fur with white-frosted tips; females typically paler/more heavily frosted than the brighter, more richly coloured males; buffy patches at the shoulder and wrist."
+      },
+      "morphology": {
+        "earType": "Short, broad, rounded ears, partly furred",
+        "tailType": "Densely furred uropatagium (tail membrane) on the dorsal surface — a key field character shared with other Lasiurus tree bats",
+        "noseType": "Simple, unspecialized muzzle",
+        "otherFeatures": [
+          "Camouflages as a dead leaf or pine cone while roosting, hanging by one foot and twisting in the breeze",
+          "Sexual dichromatism (males more vividly red than females)",
+          "Long, pointed wings",
+          "Frequently bears twins or triplets — larger litters than most vespertilionids"
+        ]
+      },
+      "echolocation": {
+        "callType": "Steep, high-frequency FM sweep",
+        "peakFreqHzRange": {
+          "min": 40000,
+          "max": 44000
+        },
+        "characteristicFreqHzRange": {
+          "min": 38000,
+          "max": 44000
+        },
+        "freqHighHzRange": {
+          "min": 45000,
+          "max": 50000
+        },
+        "freqLowHzRange": {
+          "min": 25000,
+          "max": 30000
+        },
+        "durationMsRange": {
+          "min": 3,
+          "max": 8
+        },
+        "notes": "One of the highest-frequency callers among BC's Lasiurus/Lasionycteris/Eptesicus group, clearly separable from the much lower-frequency hoary and silver-haired bats; can be confused acoustically with Myotis species in the same frequency band, so should be identified with caution given its rarity in BC."
+      },
+      "conservation": {
+        "iucnStatus": "Least Concern (global)",
+        "localStatus": "COSEWIC: Endangered (assessed May 2023 jointly with hoary and silver-haired bats; not yet on SARA Schedule 1). In British Columbia the species has no formal provincial S-rank/BC list status due to its extreme rarity and vagrant status — bcbats.ca lists BC status as unknown/rare, reflecting only a handful of confirmed records (a 1905 southern-interior specimen and wind-turbine fatalities in northeastern BC)."
+      },
+      "habits": {
+        "roosting": "Roosts solitarily, suspended by one foot among tree foliage (deciduous or evergreen), relying on camouflage rather than shelter structures; does not use caves or buildings.",
+        "migration": "A long-distance migrant thought to follow broad north–south (and in the east, coastal/Atlantic-seaboard) migration routes between summer range across eastern/central North America and southeastern wintering grounds; BC records likely represent migratory strays or wind-facility casualties rather than an established resident population.",
+        "feeding": "Insectivorous, foraging mainly on moths as well as other flying insects around forest edges, clearings, and artificial lights, typically beginning shortly after dusk.",
+        "reproduction": "Unusual among vespertilionids in regularly producing twins, with litters of up to five (commonly three) pups; young fledge at three to four weeks old.",
+        "other": "Extremely cold-hardy for its size, tolerating temperatures near freezing during periods of torpor thanks to its dense fur and furred tail membrane."
+      },
+      "references": [
+        "Animal Diversity Web, Lasiurus borealis — https://animaldiversity.org/accounts/Lasiurus_borealis/",
+        "Bat Conservation International, Eastern Red Bat profile — https://www.batcon.org/bat/lasiurus-borealis/",
+        "COSEWIC Assessment and Status Report on Hoary Bat, Eastern Red Bat, and Silver-haired Bat in Canada (2023) — https://www.canada.ca/en/environment-climate-change/services/species-risk-public-registry/cosewic-assessments-status-reports/hoary-bat-eastern-red-bat-silver-haired-bat-2023.html",
+        "BC Species and Ecosystems Explorer, Lasiurus borealis species summary — https://a100.gov.bc.ca/pub/eswp/speciesSummary.do?id=29449",
+        "bcbats.ca, Bat Species in BC — https://bcbats.ca/bat-basics/bat-species-in-bc/"
+      ],
+      "contributors": [
+        {
+          "name": "Niall Bell",
+          "date": "2026-07-01T00:00:00Z",
+          "note": "Created species profile"
+        }
+      ],
+      "group": "Vesper Bat"
+    },
+    {
+      "id": "lasiurus-cinereus",
+      "commonName": "Hoary Bat",
+      "scientificName": "Lasiurus cinereus",
+      "order": "Chiroptera",
+      "family": "Vespertilionidae",
+      "regions": [
+        "canada-west",
+        "canada-east",
+        "america-west",
+        "america-east",
+        "mexico-central-america"
+      ],
+      "summary": "The largest bat in Canada, the hoary bat is a solitary, tree-roosting species named for its frosted, hoary-tipped fur. A powerful long-distance migrant, it summers across most of BC's forests and is one of the species most frequently killed by wind turbines during fall migration.",
+      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Hoary_bat_closeup.jpg",
+      "imageCredit": "RatioTile, CC BY-SA 4.0, via Wikimedia Commons",
+      "measurements": {
+        "forearmMmRange": {
+          "min": 46,
+          "max": 57
+        },
+        "wingspanCmRange": {
+          "min": 38,
+          "max": 43
+        },
+        "weightGRange": {
+          "min": 20,
+          "max": 35
+        },
+        "color": "Dark brown to grayish fur heavily frosted with white tips (giving the 'hoary' appearance), a buffy-yellow patch on the throat and shoulders, and dark wrist/shoulder patches against pale wing membranes."
+      },
+      "morphology": {
+        "earType": "Short, thick, broad, and rounded; edged in black; do not reach the nostril when laid forward",
+        "tailType": "Uropatagium (tail membrane) densely furred, especially on the dorsal surface, extending to the tip of the tail",
+        "noseType": "Simple, unspecialized muzzle (no nose-leaf)",
+        "otherFeatures": [
+          "Frosted/hoary-tipped fur unique among Canadian bats",
+          "Long, narrow wings built for fast, sustained flight",
+          "Fur extends onto forearms and undersides of wings near the body",
+          "Largest bat species in Canada"
+        ]
+      },
+      "echolocation": {
+        "callType": "Low-frequency, narrow-band FM search calls; shallow sweep, sometimes with a near-constant-frequency tail",
+        "peakFreqHzRange": {
+          "min": 17000,
+          "max": 25000
+        },
+        "characteristicFreqHzRange": {
+          "min": 20000,
+          "max": 29000
+        },
+        "freqHighHzRange": {
+          "min": 25000,
+          "max": 30000
+        },
+        "freqLowHzRange": {
+          "min": 15000,
+          "max": 20000
+        },
+        "durationMsRange": {
+          "min": 4,
+          "max": 16
+        },
+        "notes": "Among the lowest-frequency callers in North America — often near or below the upper limit of human hearing. Distinguished from other low-frequency BC bats (e.g. big brown bat) by its markedly lower characteristic frequency and longer, narrower-bandwidth calls; also known to fly and navigate with reduced or absent echolocation at times. Call frequency varies with body size (geographic/subspecies variation) and habitat clutter."
+      },
+      "conservation": {
+        "iucnStatus": "Least Concern (global)",
+        "localStatus": "COSEWIC: Endangered (assessed May 2023, along with eastern red and silver-haired bats, primarily due to wind-turbine mortality during migration; not yet added to SARA Schedule 1 as of this writing). BC Conservation Data Centre / bcbats.ca: Blue-listed (Special Concern) in British Columbia."
+      },
+      "habits": {
+        "roosting": "Roosts solitarily, hanging in the foliage of trees (maple, oak, ash, elm, conifers), typically well-concealed near the edge of the canopy; does not use buildings or caves.",
+        "migration": "Long-distance seasonal migrant, moving between summer ranges across most of North America (including BC) and warmer coastal/southern wintering areas; some individuals may undergo short periods of torpor/hibernation en route.",
+        "feeding": "Feeds mainly on moths, but also beetles, flies, crickets, and true bugs, foraging in open areas and over forest canopy; capable of fast, direct flight.",
+        "reproduction": "Mating occurs in late summer/fall; females store sperm over winter and give birth in late spring to early summer, typically to twins (litters of one to four pups reported).",
+        "other": "Migratory tree bats like the hoary bat account for a disproportionate share of bat fatalities at wind energy facilities, making turbine-collision mortality the primary conservation concern for the species."
+      },
+      "references": [
+        "Animal Diversity Web, Lasiurus cinereus — https://animaldiversity.org/accounts/Lasiurus_cinereus/",
+        "Bat Conservation International, Hoary Bat profile — https://www.batcon.org/bat/lasiurus-cinereus/",
+        "COSEWIC Assessment and Status Report on Hoary Bat, Eastern Red Bat, and Silver-haired Bat in Canada (2023) — https://www.canada.ca/en/environment-climate-change/services/species-risk-public-registry/cosewic-assessments-status-reports/hoary-bat-eastern-red-bat-silver-haired-bat-2023.html",
+        "bcbats.ca, Bat Species in BC — https://bcbats.ca/bat-basics/bat-species-in-bc/",
+        "Koehler, Barclay & Fenton, and other geographic-variation echolocation studies of Lasiurus cinereus (ResearchGate summaries) — https://www.researchgate.net/publication/249542306"
+      ],
+      "contributors": [
+        {
+          "name": "Niall Bell",
+          "date": "2026-07-01T00:00:00Z",
+          "note": "Created species profile"
+        },
+        {
+          "name": "Niall Bell",
+          "date": "2026-08-20T17:16:35Z",
+          "note": "Updated the photograph. It had been erroneously set as the wrong species."
+        }
+      ],
+      "group": "Vesper Bat"
+    },
+    {
+      "id": "myotis-californicus",
+      "commonName": "California Myotis",
+      "scientificName": "Myotis californicus",
+      "order": "Chiroptera",
+      "family": "Vespertilionidae",
+      "regions": [
+        "canada-west",
+        "america-west",
+        "mexico-central-america"
+      ],
+      "summary": "One of the smallest bats in British Columbia, the California myotis is an erratic, fluttery flier often seen foraging around trees, cliffs, and buildings at dusk. It is widespread and secure through most of the province, tolerating both dry interior valleys and moister coastal forest.",
+      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/7/70/Myotis_californicus.jpg",
+      "imageCredit": "The High Fin Sperm Whale, CC BY-SA 3.0, via Wikimedia Commons",
+      "measurements": {
+        "forearmMmRange": {
+          "min": 30,
+          "max": 35
+        },
+        "wingspanCmRange": {
+          "min": 22,
+          "max": 26
+        },
+        "weightGRange": {
+          "min": 3.3,
+          "max": 5.4
+        },
+        "color": "Long, dull (not glossy) fur showing strong geographic variation — from rusty reddish-brown to rich dark chestnut-brown in cooler/coastal areas, to pale yellowish-orange in arid interior populations."
+      },
+      "morphology": {
+        "earType": "Relatively long, black ears extending slightly beyond the nose when laid forward",
+        "tailType": "Tail enclosed in uropatagium; calcar slender and prominently keeled",
+        "noseType": "Simple nose, no nose-leaf; delicate skull with a steeply sloping forehead",
+        "otherFeatures": [
+          "Black wing and tail membranes",
+          "One of the smallest Myotis species in North America",
+          "Slow, erratic, fluttery flight distinct from most other Myotis"
+        ]
+      },
+      "echolocation": {
+        "callType": "FM (steep sweep, smoothly curving with little or no inflection)",
+        "peakFreqHzRange": {
+          "min": 44000,
+          "max": 101000
+        },
+        "characteristicFreqHzRange": {
+          "min": 43000,
+          "max": 57000
+        },
+        "freqHighHzRange": {
+          "min": 52000,
+          "max": 135000
+        },
+        "freqLowHzRange": {
+          "min": 33000,
+          "max": 53000
+        },
+        "durationMsRange": {
+          "min": 1.6,
+          "max": 7.3
+        },
+        "notes": "Like all small mouse-eared bats, the California myotis' short, steep FM sweep overlaps broadly with the western small-footed myotis, with which it is most often confused acoustically — the two are frequently distinguished only by a subtle difference in characteristic frequency (California myotis tends higher, roughly 50 kHz mean vs. ~40 kHz for M. ciliolabrum) and call shape (a smoothly curved sweep with a defined downward 'toe' versus M. ciliolabrum's more inflected shape), a distinction that is unreliable without high-quality full-spectrum recordings. Overlap with M. yumanensis and M. lucifugus at the lower end of its frequency range also occurs. Acoustic ID should be treated as provisional."
+      },
+      "conservation": {
+        "iucnStatus": "Least Concern",
+        "localStatus": "BC Conservation Data Centre: Yellow-listed, not at risk (S4S5, Mar 2022; G5 globally secure); no COSEWIC or SARA federal listing. bcbats.ca rank: Not at risk."
+      },
+      "habits": {
+        "roosting": "Highly flexible, roosting in caves, mines, rocky hillsides, tree bark and cavities, shrubs, cliff crevices, and buildings, with occasional use of bat houses. Reproductive females form small maternity colonies of roughly 10-20 individuals, often under loose bark on large-diameter trees, switching roosts frequently. Winters in snags, mines, bridges, and rock outcrops/crevices, hibernating alone or in small groups.",
+        "migration": "Largely a year-round resident across much of its range with only local movements to nearby hibernacula rather than long-distance migration; some individuals reuse the same roost across seasons.",
+        "feeding": "A slow, highly maneuverable forager that detects and takes prey at very close range (under 1 m), with an erratic, fluttery flight and frequent abrupt path changes tied to feeding buzzes; forages over water, near the ground, and within forest canopy. Diet is mainly small moths, flies, and beetles, with regional variation (more caddisflies/beetles in northern populations, more moths/flies in the south).",
+        "reproduction": "Mating occurs in autumn with sperm stored by females over winter; a single pup is born from about May through early July and becomes volant at roughly one month old.",
+        "other": "Notably late-emerging compared to most Myotis, often not appearing until well after dark, and remains active on both mild and near-freezing winter nights."
+      },
+      "references": [
+        "Myotis californicus (California myotis) — Animal Diversity Web, https://animaldiversity.org/accounts/Myotis_californicus/",
+        "California Myotis (Myotis californicus) — Encyclopedia of Puget Sound, https://www.eopugetsound.org/articles/california-myotis-myotis-californicus",
+        "California myotis (bat) — Washington Department of Fish & Wildlife, https://wdfw.wa.gov/species-habitats/species/myotis-californicus",
+        "Echolocation Call Characteristics of Western North American Bats — Joe Szewczak, Cal Poly Humboldt Bat Lab (SonoBat), https://sonobat.com/download/Western_NA_Bat_Acoustic_Table.pdf",
+        "BC Conservation Data Centre Species Summary — Myotis californicus, https://a100.gov.bc.ca/pub/eswp/speciesSummary.do?id=17953",
+        "bcbats.ca — Bat Species in BC, https://bcbats.ca/bat-basics/bat-species-in-bc/"
+      ],
+      "contributors": [
+        {
+          "name": "Niall Bell",
+          "date": "2026-07-01T00:00:00Z",
+          "note": "Created species profile"
+        }
+      ],
+      "group": "Vesper Bat"
+    },
+    {
+      "id": "myotis-ciliolabrum",
+      "commonName": "Western Small-footed Myotis",
+      "scientificName": "Myotis ciliolabrum",
+      "order": "Chiroptera",
+      "family": "Vespertilionidae",
+      "regions": [
+        "canada-west",
+        "america-west",
+        "mexico-central-america"
+      ],
+      "summary": "A tiny, dark-masked bat of BC's dry interior valleys, the western small-footed myotis roosts almost exclusively in rock crevices and cliffs rather than trees or buildings. It is among the province's smallest bats, recognizable by its diminutive feet and a distinct black facial mask.",
+      "measurements": {
+        "forearmMmRange": {
+          "min": 30,
+          "max": 34
+        },
+        "wingspanCmRange": {
+          "min": 20.5,
+          "max": 24.5
+        },
+        "weightGRange": {
+          "min": 4,
+          "max": 7
+        },
+        "color": "Yellowish-buff to tawny fur, paler (sometimes whitish) underparts; a distinctive black mask across the muzzle and chin, with black ears and forearms."
+      },
+      "morphology": {
+        "earType": "Ears 11-16 mm, black, with a narrow tragus about half the total ear length",
+        "tailType": "Tail enclosed in the uropatagium, occasionally protruding slightly beyond the membrane",
+        "noseType": "Simple nose, no nose-leaf; black muzzle mask",
+        "otherFeatures": [
+          "Notably tiny, short feet relative to other Myotis (the trait giving the species its name)",
+          "Delicate, lightly built skull",
+          "Keeled calcar"
+        ]
+      },
+      "echolocation": {
+        "callType": "FM (steep sweep, smoothly curving)",
+        "peakFreqHzRange": {
+          "min": 39000,
+          "max": 87000
+        },
+        "characteristicFreqHzRange": {
+          "min": 38000,
+          "max": 48000
+        },
+        "freqHighHzRange": {
+          "min": 51000,
+          "max": 119000
+        },
+        "freqLowHzRange": {
+          "min": 28000,
+          "max": 43000
+        },
+        "durationMsRange": {
+          "min": 1.7,
+          "max": 5.7
+        },
+        "notes": "Frequently confused with the California myotis, its closest acoustic match — the two share nearly identical short, steep FM call shapes and are separated mainly by characteristic frequency (M. ciliolabrum averages lower, roughly 40 kHz, versus roughly 50 kHz for M. californicus), a difference too small and variable for confident automated or by-ear identification in isolation. It also overlaps with other 40 kHz-class Myotis. As with all Myotis species in this guide, acoustic detector output should be considered a probable-species indicator, not a confirmed identification, without call-shape expertise or capture data."
+      },
+      "conservation": {
+        "iucnStatus": "Least Concern",
+        "localStatus": "BC Conservation Data Centre: Blue-listed (S3S4, Mar 2022; G5 globally secure); no COSEWIC or SARA federal listing. bcbats.ca rank: Blue."
+      },
+      "habits": {
+        "roosting": "Strongly associated with rock: cliff faces, rocky outcrops, and crevices rather than trees, typically within about 2 km of foraging areas; occasional use of buildings in summer. Day roosts tend to be solitary within a small home range, while night roosts are more communal. Hibernates in caves and mine tunnels, wedged singly or in very small groups (often fewer than 6 per site) deep in narrow cracks and crevices at cold, stable temperatures (roughly -3 to 9°C).",
+        "migration": "Considered a short-distance migrant/largely sedentary species, typically hibernating in caves or mines within or near its summer range rather than undertaking long-distance movements; in BC restricted mainly to the arid low-elevation valleys of the southern interior (Okanagan, Similkameen, Thompson, Fraser, Chilcotin, Skagit).",
+        "feeding": "Forages for small flying insects — moths, true flies, true bugs, beetles, and caddisflies — usually within about 1 km of water, beginning foraging shortly after sunset (often within ~25 minutes) with activity peaks in the mid-evening and again before dawn.",
+        "reproduction": "Mates in late summer/autumn; females store sperm over winter and delay fertilization until spring. Almost always a single pup per year (twins reported only rarely); gestation roughly 1-2 months, with young weaned and volant in 4-6 weeks and reaching sexual maturity just over a year after birth.",
+        "other": "One of the smallest bats in BC by both body size and foot size; primary threats include disturbance of rock/mine roosts, mine closures, and loss of riparian foraging habitat."
+      },
+      "references": [
+        "Myotis ciliolabrum (western small-footed myotis) — Animal Diversity Web, https://animaldiversity.org/accounts/Myotis_ciliolabrum/",
+        "Western small-footed bat — Wikipedia, https://en.wikipedia.org/wiki/Western_small-footed_bat",
+        "Western small-footed myotis (bat) — Washington Department of Fish & Wildlife, https://wdfw.wa.gov/species-habitats/species/myotis-ciliolabrum",
+        "Echolocation Call Characteristics of Western North American Bats — Joe Szewczak, Cal Poly Humboldt Bat Lab (SonoBat), https://sonobat.com/download/Western_NA_Bat_Acoustic_Table.pdf",
+        "BC Conservation Data Centre Species Summary — Myotis ciliolabrum, https://a100.gov.bc.ca/pub/eswp/speciesSummary.do?id=17143",
+        "Western Small-footed Myotis — BC Ministry of Forests species account (BC Timber Sales), https://www2.gov.bc.ca/assets/gov/farming-natural-resources-and-industry/forestry/bc-timber-sales/ems-sfm-certification/business-area/kamloops/western_small-footed_myotis.pdf",
+        "bcbats.ca — Bat Species in BC, https://bcbats.ca/bat-basics/bat-species-in-bc/"
+      ],
+      "contributors": [
+        {
+          "name": "Niall Bell",
+          "date": "2026-07-01T00:00:00Z",
+          "note": "Created species profile"
+        }
+      ],
+      "group": "Vesper Bat"
+    },
+    {
+      "id": "myotis-evotis",
+      "commonName": "Long-eared Myotis",
+      "scientificName": "Myotis evotis",
+      "order": "Chiroptera",
+      "family": "Vespertilionidae",
+      "regions": [
+        "canada-west",
+        "america-west",
+        "mexico-central-america"
+      ],
+      "summary": "A pale, straw-brown Myotis instantly recognizable by its long black ears, which extend well past the nose when laid forward — the longest of any North American Myotis. It forages both by classic aerial hawking and by gleaning motionless prey off foliage, using quiet, low-duty-cycle calls well suited to hunting in cluttered forest habitat.",
+      "measurements": {
+        "forearmMmRange": {
+          "min": 36,
+          "max": 41
+        },
+        "wingspanCmRange": {
+          "min": 25,
+          "max": 30
+        },
+        "weightGRange": {
+          "min": 5,
+          "max": 8
+        },
+        "color": "Dull to pale brown or straw-colored pelage, strikingly contrasted by black ears and wing membranes."
+      },
+      "morphology": {
+        "earType": "Very long ears (roughly 19–22 mm), extending well past the nose when laid forward — the longest of any North American Myotis; long, slender tragus",
+        "tailType": "Tail fully enclosed in the interfemoral membrane; calcar shows little to no keel",
+        "noseType": "Simple, unadorned Myotis snout",
+        "otherFeatures": [
+          "Ears extend well beyond the nose when laid forward — diagnostic among North American Myotis",
+          "Black ears and wing membranes contrasting sharply with pale fur",
+          "Relatively large auditory bullae, supporting sensitive low-frequency hearing used to detect prey-generated sounds while gleaning"
+        ]
+      },
+      "echolocation": {
+        "callType": "FM, steep and quiet ('whispering' calls suited to gleaning)",
+        "peakFreqHzRange": {
+          "min": 35000,
+          "max": 44000
+        },
+        "characteristicFreqHzRange": {
+          "min": 34000,
+          "max": 38000
+        },
+        "freqHighHzRange": {
+          "min": 61000,
+          "max": 91000
+        },
+        "freqLowHzRange": {
+          "min": 25000,
+          "max": 30000
+        },
+        "durationMsRange": {
+          "min": 2.8,
+          "max": 4.8
+        },
+        "notes": "Calls can span up to ~100 kHz of bandwidth and are shaped like M. thysanodes calls but distinguished by a higher characteristic frequency (~36 kHz vs ~25 kHz). Essentially indistinguishable from M. volans in short calls, though M. evotis calls tend to be less frequency-modulated; longer, well-formed calls improve confident separation. Low call intensity reflects a passive-listening gleaning strategy."
+      },
+      "conservation": {
+        "iucnStatus": "Least Concern",
+        "localStatus": "Not formally assessed by COSEWIC/not SARA-listed; BC Conservation Data Centre rank approximately S4 (Apparently Secure), Yellow-listed in BC; bcbats.ca lists BC status as 'Not at risk.' Considered state-sensitive in parts of the western US."
+      },
+      "habits": {
+        "roosting": "Uses tree cavities, stumps, large snags in canopy gaps, rock crevices, loose bark, caves, and occasionally buildings or bat houses in summer; winter roosting reported in cliffs, snags, stumps, talus slopes, rock outcrops, crevices, and mines.",
+        "migration": "Thought to migrate only short distances between summer and winter ranges; specific winter ranges remain poorly documented.",
+        "feeding": "Forages by both aerial hawking and gleaning motionless or crawling insects from foliage, bark, and the ground; when gleaning, may cease echolocating and rely on prey-generated sounds to locate targets, aided by especially sensitive low-frequency hearing.",
+        "reproduction": "One pup per year; forms maternity colonies of roughly 5–30 individuals; young are born in late spring to early summer and weigh about 1–1.5 g at birth.",
+        "other": "Maneuverable, moth-like flight well adapted to hunting within cluttered forest understory."
+      },
+      "references": [
+        "Animal Diversity Web, Myotis evotis — https://animaldiversity.org/accounts/Myotis_evotis/",
+        "BC Bats (Community Bat Programs of BC), Bat species in BC — https://bcbats.ca/bat-basics/bat-species-in-bc/",
+        "Encyclopedia of Puget Sound, Western Long-eared Myotis (Myotis evotis) — https://www.eopugetsound.org/articles/western-long-eared-myotis-myotis-evotis",
+        "Szewczak, J., Cal Poly Humboldt Bat Lab, Echolocation Call Characteristics of Western North American Bats (SonoBat), 2024 — https://sonobat.com/download/Western_NA_Bat_Acoustic_Table.pdf"
+      ],
+      "contributors": [
+        {
+          "name": "Niall Bell",
+          "date": "2026-07-01T00:00:00Z",
+          "note": "Created species profile"
+        }
+      ],
+      "group": "Vesper Bat"
+    },
+    {
+      "id": "myotis-lucifugus",
+      "commonName": "Little Brown Bat",
+      "scientificName": "Myotis lucifugus",
+      "family": "Vespertilionidae",
+      "regions": [
+        "canada-east",
+        "canada-west",
+        "america-east",
+        "america-west"
+      ],
+      "summary": "Once among the most common bats in North America, now heavily impacted by white-nose syndrome. Calls sweep from about 80 kHz down to 40 kHz; forages over water and along forest edges.",
+      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/1/18/Little_Brown_Bat_%285688118054%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+      "imageCredit": "J Jongsma from Minneapolis, United States, CC BY-SA 2.0, via Wikimedia Commons",
+      "group": "Vesper Bat",
+      "contributors": [
+        {
+          "name": "Niall Bell",
+          "date": "2026-09-01T04:40:48Z",
+          "note": "Created and added group."
+        }
+      ]
+    },
+    {
+      "id": "myotis-septentrionalis",
+      "commonName": "Northern Myotis",
+      "scientificName": "Myotis septentrionalis",
+      "order": "Chiroptera",
+      "family": "Vespertilionidae",
+      "regions": [
+        "canada-west",
+        "canada-east",
+        "america-east"
+      ],
+      "summary": "Also known as the northern long-eared bat, this forest-dwelling Myotis is instantly recognizable by its long, pointed ears and long, sharp tragus, which it uses to glean insects directly off foliage and bark. Once widespread, it has been devastated by white-nose syndrome across the eastern part of its range and is now federally listed as Endangered in Canada.",
+      "measurements": {
+        "forearmMmRange": {
+          "min": 34,
+          "max": 38
+        },
+        "wingspanCmRange": {
+          "min": 23,
+          "max": 26
+        },
+        "weightGRange": {
+          "min": 6,
+          "max": 9
+        },
+        "color": "Dull yellow-brown fur with a pale grey ventral side and faint brown shoulder spotting."
+      },
+      "morphology": {
+        "earType": "Long, rounded ears (about 17-19 mm) that extend noticeably beyond the tip of the nose when laid forward",
+        "tailType": "Comparatively longer tail than similarly sized Myotis; calcar lacks a keel",
+        "noseType": "Simple nose, no nose-leaf",
+        "otherFeatures": [
+          "Long, narrow, sharp-pointed tragus — the clearest field mark separating it from other BC Myotis",
+          "Larger wing area relative to body size than most similarly sized Myotis",
+          "Gleans stationary prey from leaves, bark, and other surfaces in addition to aerial hawking"
+        ]
+      },
+      "echolocation": {
+        "callType": "FM (steep, often nearly linear sweep)",
+        "peakFreqHzRange": {
+          "min": 37000,
+          "max": 95000
+        },
+        "characteristicFreqHzRange": {
+          "min": 32000,
+          "max": 53000
+        },
+        "freqHighHzRange": {
+          "min": 60000,
+          "max": 120000
+        },
+        "freqLowHzRange": {
+          "min": 25000,
+          "max": 50000
+        },
+        "durationMsRange": {
+          "min": 1.7,
+          "max": 6.6
+        },
+        "notes": "Among the hardest bats to acoustically distinguish from its Myotis relatives — its FM sweep can span up to ~100 kHz of bandwidth and is often nearly linear, making the characteristic frequency difficult to pin down and easy to confuse with the little brown myotis and other small Myotis. Its calls are also typically quiet and shorter/more clutter-adapted than open-air Myotis species because it forages by gleaning close to vegetation on a comparatively slow, linear flight path, which further reduces detection range and recording quality. Given the acoustic overlap across the genus and this species' at-risk status, suspected detections should be treated as tentative and, where possible, corroborated by capture, roost survey, or genetic data."
+      },
+      "conservation": {
+        "iucnStatus": "Near Threatened",
+        "localStatus": "COSEWIC: Endangered (assessed Nov 2013, following a Feb 2012 emergency assessment); SARA Schedule 1: Endangered (Dec 2014, emergency listing alongside little brown myotis and tri-colored bat). BC Conservation Data Centre: Blue-listed (S2S3, Mar 2022; G2G3 globally, Dec 2021). bcbats.ca rank: E1 (Endangered) / Blue. Also listed as Endangered under the U.S. Endangered Species Act (up-listed from Threatened in Nov 2022, effective Mar 2023) — devastated across its eastern range by white-nose syndrome."
+      },
+      "habits": {
+        "roosting": "Summer day roosts under loose bark, in tree cavities, and crevices in living and dead trees, occasionally in buildings (rarely, per bcbats.ca). Hibernates in caves and mines, favouring moist, still, narrow crevices with cold, stable temperatures (as low as ~1.6°C).",
+        "migration": "Makes relatively short seasonal movements — up to about 56 km — between summer foraging/roosting habitat and hibernacula in late summer/early autumn, overwintering in hibernation for roughly 8-9 months in northern parts of its range.",
+        "feeding": "Forages within forest, typically 1-3 m above ground over small ponds, forest clearings, and forest edges, often shortly after sunset with another activity peak before dawn; both hawks flying insects and gleans stationary prey (caddisflies, moths, beetles, flies, leafhoppers) from foliage and bark using passive listening as well as echolocation.",
+        "reproduction": "Breeds in autumn; a single pup is born after a 50-60 day gestation, typically in late June or early July in British Columbia, and is nursed for about 30 days before becoming volant.",
+        "other": "Primary conservation threats are white-nose syndrome (by far the dominant driver of decline), plus hibernacula disturbance, timber harvest affecting roost trees, and insecticide use reducing prey; western/BC populations have so far been less affected by white-nose syndrome than eastern Canadian populations but remain at high risk as the fungus spreads westward."
+      },
+      "references": [
+        "Myotis septentrionalis (northern long-eared myotis) — Animal Diversity Web, https://animaldiversity.org/accounts/Myotis_septentrionalis/",
+        "Northern Long-eared Bat (Myotis septentrionalis) — U.S. Fish & Wildlife Service, https://www.fws.gov/species/northern-long-eared-bat-myotis-septentrionalis",
+        "Myotis septentrionalis — Bat Conservation International, https://www.batcon.org/bat/myotis-septentrionalis/",
+        "COSEWIC assessment and status report on the Little Brown Myotis, Northern Myotis, and Tri-colored Bat in Canada (2013) — Government of Canada, https://publications.gc.ca/site/eng/9.579593/publication.html",
+        "Little Brown Myotis, Northern Myotis, and Tri-colored Bat: Recovery Strategy 2018 — Environment and Climate Change Canada, https://www.canada.ca/en/environment-climate-change/services/species-risk-public-registry/recovery-strategies/little-brown-myotis-2018.html",
+        "IUCN Red List assessment for Myotis septentrionalis (Solari, 2018), https://www.iucnredlist.org",
+        "Echolocation Call Characteristics of Eastern North American Bats — Joe Szewczak, Cal Poly Humboldt Bat Lab (SonoBat), https://sonobat.com/download/Eastern_NA_Acoustic_Table.pdf",
+        "BC Conservation Data Centre Species Summary — Myotis septentrionalis, https://a100.gov.bc.ca/pub/eswp/speciesSummary.do?id=16442",
+        "bcbats.ca — Bat Species in BC, https://bcbats.ca/bat-basics/bat-species-in-bc/"
+      ],
+      "contributors": [
+        {
+          "name": "Niall Bell",
+          "date": "2026-07-01T00:00:00Z",
+          "note": "Created species profile"
+        },
+        {
+          "name": "Niall Bell",
+          "date": "2026-08-27T04:24:40Z",
+          "note": "Added a new photo."
+        },
+        {
+          "name": "Niall Bell",
+          "date": "2026-08-27T23:27:47Z",
+          "note": "Changed the photo."
+        }
+      ],
+      "imageURL": "https://inaturalist-open-data.s3.amazonaws.com/photos/469644977/original.jpeg",
+      "imageCredit": "Nick Cairns, some rights reserved (CC BY-NC)",
+      "group": "Vesper Bat"
+    },
+    {
+      "id": "myotis-thysanodes",
+      "commonName": "Fringed Myotis",
+      "scientificName": "Myotis thysanodes",
+      "order": "Chiroptera",
+      "family": "Vespertilionidae",
+      "regions": [
+        "canada-west",
+        "america-west",
+        "mexico-central-america"
+      ],
+      "summary": "One of the larger western Myotis, unmistakable up close for the fringe of stiff hairs lining the trailing edge of its tail membrane. In Canada it is a rare species restricted to a single intermontane valley in south-central BC, where it roosts in caves, mines, cliffs, and old buildings and forages for beetles with slow, highly maneuverable flight near the canopy.",
+      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/8/88/Myotis_Thysanodes_Cluster_%2844290176760%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+      "imageCredit": "mypubliclands, Public domain, via Wikimedia Commons",
+      "measurements": {
+        "forearmMmRange": {
+          "min": 37,
+          "max": 46
+        },
+        "wingspanCmRange": {
+          "min": 27,
+          "max": 30
+        },
+        "weightGRange": {
+          "min": 5,
+          "max": 9
+        },
+        "color": "Light brown dorsal fur with off-white to buff underparts."
+      },
+      "morphology": {
+        "earType": "Long ears (around 16.5 mm), notably large among Myotis though shorter than M. evotis",
+        "tailType": "Interfemoral (tail) membrane fringed along its trailing edge with a conspicuous row of stiff hairs — the species' namesake and most diagnostic field mark",
+        "noseType": "Simple, unadorned Myotis snout",
+        "otherFeatures": [
+          "Diagnostic fringe of stiff hairs on the trailing edge of the tail membrane, thought to aid prey detection/capture",
+          "Comparatively robust skull among western Myotis",
+          "One of the larger-bodied Myotis species in its range"
+        ]
+      },
+      "echolocation": {
+        "callType": "FM, near-linear sweep with characteristic frequency in the low 20s kHz",
+        "peakFreqHzRange": {
+          "min": 24000,
+          "max": 35000
+        },
+        "characteristicFreqHzRange": {
+          "min": 23000,
+          "max": 28000
+        },
+        "freqHighHzRange": {
+          "min": 48000,
+          "max": 84000
+        },
+        "freqLowHzRange": {
+          "min": 18000,
+          "max": 22000
+        },
+        "durationMsRange": {
+          "min": 2.9,
+          "max": 5
+        },
+        "notes": "Call shape is very similar to M. evotis (both can show up to ~100 kHz of bandwidth with a near-linear FM sweep that makes the characteristic frequency hard to pin down), but M. thysanodes has a distinctly lower characteristic frequency (~25 kHz vs ~36 kHz for M. evotis). Fragments of these calls can also mimic Townsend's big-eared bat (Corynorhinus townsendii); presence of harmonics helps distinguish the two."
+      },
+      "conservation": {
+        "iucnStatus": "Least Concern",
+        "localStatus": "COSEWIC-assessed as Special Concern; BC Conservation Data Centre rank S2S3 (Imperilled to Vulnerable), Blue-listed in BC; bcbats.ca lists BC status as 'Blue.' National rank in Canada N2N3 vs. N4N5 in the US, reflecting its rarity at the northern edge of its range."
+      },
+      "habits": {
+        "roosting": "Roosts in caves, mine tunnels, rock crevices, and old buildings in summer (occasional in buildings per bcbats); winter roosts include mines, cliffs, rock crevices, and snags.",
+        "migration": "Highly migratory in parts of its range; arrives around mid-May in the southern US to form nursery colonies, which disperse by the end of October. Winter movements and hibernation locations remain largely undocumented.",
+        "feeding": "Feeds mainly on beetles and other insects, using slow, highly maneuverable flight to forage close to the vegetative canopy; both aerial hawking and gleaning are used.",
+        "reproduction": "Single pup born after a 50–60 day gestation, typically in late June or July; young are capable of flight within about 16 days and are weaned by about 21 days.",
+        "other": "In Canada the species is confined to intermontane grasslands of a single valley in south-central British Columbia (South Okanagan), and is considered scarce north of the US border."
+      },
+      "references": [
+        "Animal Diversity Web, Myotis thysanodes — https://animaldiversity.org/accounts/Myotis_thysanodes/",
+        "BC Bats (Community Bat Programs of BC), Bat species in BC — https://bcbats.ca/bat-basics/bat-species-in-bc/",
+        "COSEWIC, Fringed Bat (Myotis thysanodes) assessment and status report — https://www.canada.ca/en/environment-climate-change/services/species-risk-public-registry/cosewic-assessments-status-reports/fringed-bat.html",
+        "BC Ministry of Environment, Identified Wildlife Management Strategy — Fringed Myotis account — https://www.env.gov.bc.ca/wld/frpa/iwms/documents/Mammals/m_fringedmyotis.pdf",
+        "Szewczak, J., Cal Poly Humboldt Bat Lab, Echolocation Call Characteristics of Western North American Bats (SonoBat), 2024 — https://sonobat.com/download/Western_NA_Bat_Acoustic_Table.pdf"
+      ],
+      "contributors": [
+        {
+          "name": "Niall Bell",
+          "date": "2026-07-01T00:00:00Z",
+          "note": "Created species profile"
+        }
+      ],
+      "group": "Vesper Bat"
+    },
+    {
+      "id": "myotis-volans",
+      "commonName": "Long-legged Myotis",
+      "scientificName": "Myotis volans",
+      "order": "Chiroptera",
+      "family": "Vespertilionidae",
+      "regions": [
+        "canada-west",
+        "america-west",
+        "mexico-central-america"
+      ],
+      "summary": "A medium-sized Myotis of western forests, recognisable by its keeled calcar and the band of fur that extends onto the underside of the wing membrane from the body to the knee. Long-legged myotis are fast, high-flying foragers that specialise heavily on moths, and in BC they hibernate almost exclusively in caves after using tall dead snags for summer roosting.",
+      "measurements": {
+        "forearmMmRange": {
+          "min": 35.2,
+          "max": 42
+        },
+        "wingspanCmRange": {
+          "min": 24.2,
+          "max": 28.6
+        },
+        "weightGRange": {
+          "min": 5,
+          "max": 10
+        },
+        "color": "Dark brown to blackish-brown dorsal fur, only slightly paler below; fur extends noticeably onto the ventral wing membrane from the body out to the elbow/knee line, a useful field character."
+      },
+      "morphology": {
+        "earType": "Short, rounded ears that do not extend much past the nose when laid forward",
+        "tailType": "Long tail fully enclosed in the interfemoral membrane, with a distinctly keeled calcar",
+        "noseType": "Simple, unadorned Myotis snout, no nose-leaf",
+        "otherFeatures": [
+          "Distinctly keeled calcar (helps separate it from similar Myotis)",
+          "Fur extends onto the underside of the wing from body to knee",
+          "Small hind feet relative to body",
+          "Short rostrum with an abruptly elevated forehead profile"
+        ]
+      },
+      "echolocation": {
+        "callType": "FM, steep and short-duration (western 40 kHz Myotis group)",
+        "peakFreqHzRange": {
+          "min": 41000,
+          "max": 50000
+        },
+        "characteristicFreqHzRange": {
+          "min": 40000,
+          "max": 45000
+        },
+        "freqHighHzRange": {
+          "min": 67000,
+          "max": 95000
+        },
+        "freqLowHzRange": {
+          "min": 34000,
+          "max": 39000
+        },
+        "durationMsRange": {
+          "min": 3,
+          "max": 5
+        },
+        "notes": "Belongs to the '40 kHz myotis' guild along with M. lucifugus and M. ciliolabrum; calls under ~3.5 ms are essentially indistinguishable between these species. M. volans calls tend to stay steeper through the body of the call than other 40 kHz myotids and occasionally show a diagnostic upward sweep at call onset. Acoustically very similar to M. evotis, though M. evotis calls are typically less frequency-modulated (FM) and have a lower characteristic frequency."
+      },
+      "conservation": {
+        "iucnStatus": "Least Concern",
+        "localStatus": "Not formally assessed by COSEWIC/not SARA-listed; BC Conservation Data Centre yellow-listed (apparently secure); bcbats.ca lists BC status as 'Not at risk.' Potentially vulnerable to future spread of white-nose syndrome, though not yet documented as affected."
+      },
+      "habits": {
+        "roosting": "Summer maternity roosts favor tall snags (especially Douglas-fir) with loose, peeling bark, occasionally buildings; winter hibernation occurs almost exclusively in caves, with additional roosting in cliffs, rock crevices, and stumps reported in BC.",
+        "migration": "Generally considered a short-distance, elevational migrant, moving between higher-elevation summer range and lower-elevation or cave hibernacula; climate warming may be disrupting the timing of spring down-slope movement.",
+        "feeding": "Fast, high aerial-hawking forager over open areas and forest canopy; diet dominated by soft-bodied insects, especially moths (Lepidoptera), with some flies, termites, lacewings, wasps, leafhoppers, and small beetles.",
+        "reproduction": "Polygynandrous mating system; breeding occurs May–August with spermatogenesis in males and delayed ovulation in females (March–May); a single pup is born per year, reaching reproductive maturity at roughly 152 days.",
+        "other": "Females show slightly longer forearms and larger canines than males, likely linked to reproductive demands."
+      },
+      "references": [
+        "Animal Diversity Web, Myotis volans — https://animaldiversity.org/accounts/Myotis_volans/",
+        "BC Bats (Community Bat Programs of BC), Bat species in BC — https://bcbats.ca/bat-basics/bat-species-in-bc/",
+        "Szewczak, J., Cal Poly Humboldt Bat Lab, Echolocation Call Characteristics of Western North American Bats (SonoBat), 2024 — https://sonobat.com/download/Western_NA_Bat_Acoustic_Table.pdf"
+      ],
+      "contributors": [
+        {
+          "name": "Niall Bell",
+          "date": "2026-07-01T00:00:00Z",
+          "note": "Created species profile"
+        },
+        {
+          "name": "Niall Bell",
+          "date": "2026-08-27T03:29:13Z",
+          "note": "New image provided, fixed some typos and tweaked a few section wording."
+        }
+      ],
+      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Bats_of_the_Medford_District_%2853303732370%29.jpg",
+      "imageCredit": "BLM Oregon & Washington, Public domain, via Wikimedia Commons",
+      "group": "Vesper Bat"
+    },
+    {
+      "id": "myotis-yumanensis",
+      "commonName": "Yuma Myotis",
+      "scientificName": "Myotis yumanensis",
+      "order": "Chiroptera",
+      "family": "Vespertilionidae",
+      "regions": [
+        "canada-west",
+        "america-west",
+        "mexico-central-america"
+      ],
+      "summary": "A small, dull-furred myotis strongly tied to open water, the Yuma myotis skims low over ponds, lakes, and slow streams in pursuit of aquatic insects. It is one of the most common bats in buildings and bat houses across southern BC, where large maternity colonies form each summer.",
+      "measurements": {
+        "forearmMmRange": {
+          "min": 33,
+          "max": 37
+        },
+        "wingspanCmRange": {
+          "min": 21.3,
+          "max": 25
+        },
+        "weightGRange": {
+          "min": 5,
+          "max": 7
+        },
+        "color": "Short, dull fur ranging from pale tan to dark brown on the back with whitish to buffy underparts; closely resembles the little brown myotis but smaller and duller, without the glossy sheen."
+      },
+      "morphology": {
+        "earType": "Short, rounded ears that do not extend past the nose when laid forward",
+        "tailType": "Tail fully enclosed in the uropatagium; calcar unkeeled",
+        "noseType": "Simple nose, no nose-leaf",
+        "otherFeatures": [
+          "Skull short (usually <14 mm) and lacks a sagittal crest",
+          "Wings and membranes dark brown to blackish",
+          "Slightly shorter forearm than the similar little brown myotis"
+        ]
+      },
+      "echolocation": {
+        "callType": "FM (steep, curved frequency-modulated sweep)",
+        "peakFreqHzRange": {
+          "min": 45000,
+          "max": 95000
+        },
+        "characteristicFreqHzRange": {
+          "min": 45000,
+          "max": 59000
+        },
+        "freqHighHzRange": {
+          "min": 53000,
+          "max": 129000
+        },
+        "freqLowHzRange": {
+          "min": 37000,
+          "max": 53000
+        },
+        "durationMsRange": {
+          "min": 1.8,
+          "max": 8.6
+        },
+        "notes": "Yuma myotis is part of the classic Myotis acoustic-ID problem: as a small, mouse-eared bat its FM sweep overlaps heavily with the little brown myotis (M. lucifugus), California myotis, and other co-occurring Myotis, and automated classifiers routinely confuse them. Its calls build gradually to a peak near the characteristic frequency and attenuate rapidly, often showing only a hint of a terminal tail; Weller et al. (2007) found characteristic frequency and forearm length together correctly separate it from M. lucifugus only ~91-92% of the time, with M. yumanensis calls rarely showing a characteristic frequency below ~44 kHz. Confident field identification generally requires capture or genetic confirmation rather than acoustic signature alone."
+      },
+      "conservation": {
+        "iucnStatus": "Least Concern",
+        "localStatus": "BC Conservation Data Centre: Blue-listed (S3, Mar 2022; G5 globally secure); no COSEWIC or SARA federal listing. bcbats.ca rank: Blue."
+      },
+      "habits": {
+        "roosting": "Highly adaptable; summer day and maternity roosts commonly in buildings, bridges, cliff crevices, caves, mines, and trees, usually near water — in BC it is one of the most frequent bat-house occupants. Winter roosts include snags, rock crevices, mines, and bridges, with hibernation in caves, lava tubes, and other underground sites from roughly late October to March.",
+        "migration": "Considered largely a short-distance or non-migratory species that shifts between nearby summer and winter roosts rather than undertaking long-distance movements, though detailed movement data are limited.",
+        "feeding": "Forages low over open water and along shoreline vegetation, beginning at dusk and continuing for roughly two hours after sunset; diet is dominated by aquatic-emergent insects such as caddisflies, mayflies, and midges, plus moths, beetles, and other small insects. Individuals may commute several kilometres between day roosts and foraging sites over water.",
+        "reproduction": "Mating occurs in autumn before hibernation, but fertilization is delayed until females emerge from hibernation in spring; a single pup is born, typically in late May through June in BC, and is volant within about a month.",
+        "other": "Forms some of the largest known maternity colonies of any Myotis species in the Pacific Northwest, sometimes numbering in the thousands in buildings and under bridges."
+      },
+      "references": [
+        "Myotis yumanensis (Yuma myotis) — Animal Diversity Web, https://animaldiversity.org/accounts/Myotis_yumanensis/",
+        "Yuma Myotis (Myotis yumanensis) — Encyclopedia of Puget Sound, https://www.eopugetsound.org/articles/yuma-myotis-myotis-yumanensis",
+        "Yuma myotis — Wikipedia, https://en.wikipedia.org/wiki/Yuma_myotis",
+        "Weller, T.J., Scott, S.A., Rodhouse, T.J., Ormsbee, P.C., Zinck, J.M. (2007). Field identification of the cryptic vespertilionid bats, Myotis lucifugus and M. yumanensis. USDA Forest Service PSW, https://www.fs.usda.gov/psw/publications/weller/psw_2007_weller002.pdf",
+        "Echolocation Call Characteristics of Western North American Bats — Joe Szewczak, Cal Poly Humboldt Bat Lab (SonoBat), https://sonobat.com/download/Western_NA_Bat_Acoustic_Table.pdf",
+        "BC Conservation Data Centre Species Summary — Myotis yumanensis, https://a100.gov.bc.ca/pub/eswp/speciesSummary.do?id=14966",
+        "bcbats.ca — Bat Species in BC, https://bcbats.ca/bat-basics/bat-species-in-bc/"
+      ],
+      "contributors": [
+        {
+          "name": "Niall Bell",
+          "date": "2026-07-01T00:00:00Z",
+          "note": "Created species profile"
+        }
+      ],
+      "group": "Vesper Bat"
+    },
+    {
+      "id": "parastrellus-hesperus",
+      "commonName": "Canyon Bat",
+      "scientificName": "Parastrellus hesperus",
+      "order": "Chiroptera",
+      "family": "Vespertilionidae",
+      "regions": [
+        "canada-west",
+        "america-west",
+        "mexico-central-america"
+      ],
+      "summary": "The smallest bat in the United States and Canada, the canyon bat (formerly known as the western pipistrelle) is a tiny, weak-flying species of rocky desert and canyon country. It is only an accidental vagrant in British Columbia, recorded far north of its core range in the arid US Southwest.",
+      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Canyon_Bat.jpg",
+      "imageCredit": "Bob Johnson, CC BY-SA 4.0, via Wikimedia Commons",
+      "measurements": {
+        "forearmMmRange": {
+          "min": 27,
+          "max": 33
+        },
+        "wingspanCmRange": {
+          "min": 19,
+          "max": 21.5
+        },
+        "weightGRange": {
+          "min": 3,
+          "max": 6
+        },
+        "color": "Pale yellowish-gray to dark brown dorsal fur with counter-shaded, lighter venter; hair bases blackish, tips lighter; face, ears, feet, and wing membranes usually very dark, almost black, contrasting with the paler body fur."
+      },
+      "morphology": {
+        "earType": "Short (~9 mm), rounded, with a small club-shaped tragus",
+        "tailType": "Short (~29-30 mm), fully enclosed in the interfemoral membrane",
+        "noseType": "Simple, no noseleaf or glandular ornamentation",
+        "otherFeatures": [
+          "Smallest bat species in North America north of Mexico",
+          "Short, broad, low-aspect-ratio wings giving slow, fluttery, moth-like flight (as low as ~8 km/h)",
+          "Often the first bat species active at dusk"
+        ]
+      },
+      "echolocation": {
+        "callType": "High-frequency, steeply inflected FM sweep, often flattening to a shallower slope below ~47 kHz ('hockey-stick' shape on a spectrogram)",
+        "peakFreqHzRange": {
+          "min": 40000,
+          "max": 53000
+        },
+        "characteristicFreqHzRange": {
+          "min": 42000,
+          "max": 47000
+        },
+        "freqHighHzRange": {
+          "min": 55000,
+          "max": 101000
+        },
+        "freqLowHzRange": {
+          "min": 38000,
+          "max": 42000
+        },
+        "durationMsRange": {
+          "min": 4,
+          "max": 12
+        },
+        "notes": "Among the highest-frequency callers in western North America; combined with its small size and consistently high, steep FM sweeps, this helps distinguish it acoustically from co-occurring Myotis species, although overlap with some high-frequency Myotis calls is possible and visual/contextual confirmation is valuable for rare/vagrant BC records."
+      },
+      "conservation": {
+        "iucnStatus": "Least Concern",
+        "localStatus": "Not assessed by COSEWIC; not on the BC Conservation Data Centre list as a resident species — treated as an accidental/vagrant record in British Columbia, well north of its core range in the US Southwest and Mexico."
+      },
+      "habits": {
+        "roosting": "Roosts by day and night in rock crevices and cracks in cliff faces and boulder fields; also reported using abandoned rodent burrows, mine crevices, and occasionally buildings or dense vegetation.",
+        "migration": "Non-migratory and largely sedentary, remaining in the same general area year-round; overwinters locally, likely hibernating or using periodic torpor in rock crevices, caves, or mines rather than undertaking long migrations.",
+        "feeding": "Forages low and slow over water, along cliff bases, and around vegetation for small flying insects (moths, flies, small beetles); characteristic erratic, fluttering flight; frequently the earliest-emerging bat at dusk, sometimes active before full darkness.",
+        "reproduction": "Mating occurs in fall; births (typically twins, occasionally a single pup) recorded from late June into early August; small maternity colonies (up to about a dozen females) form in rock crevices, though solitary pregnant females are also found.",
+        "other": "As a rare accidental in BC, any local record is acoustically or physically notable and worth documenting; core range is the hot, arid canyon and desert country of the US Southwest and northern Mexico, reaching only marginally into extreme southern interior BC."
+      },
+      "references": [
+        "Bat Conservation International — Parastrellus hesperus, https://www.batcon.org/bat/parastrellus-hesperus/",
+        "Wikipedia — Canyon bat, https://en.wikipedia.org/wiki/Canyon_bat",
+        "IUCN Red List / NatureServe Explorer — Parastrellus hesperus, https://explorer.natureserve.org/Taxon/ELEMENT_GLOBAL.2.103623/Parastrellus_hesperus",
+        "SonoBat — Echolocation Call Characteristics of Western North American Bats, https://sonobat.com/download/Western_NA_Bat_Acoustic_Table.pdf",
+        "Idaho Fish and Game Species Catalog — Parastrellus hesperus, https://idfg.idaho.gov/species/taxa/17954",
+        "BC Bats (Community Bat Programs of BC) — Bat Species in BC, https://bcbats.ca/bat-basics/bat-species-in-bc/"
+      ],
+      "group": "Vesper Bat"
+    },
+    {
+      "id": "pipistrellus-pipistrellus",
+      "commonName": "Common Pipistrelle",
+      "scientificName": "Pipistrellus pipistrellus",
+      "order": "Chiroptera",
+      "family": "Vespertilionidae",
+      "regions": [
+        "uk-ireland",
+        "continental-europe"
+      ],
+      "summary": "One of the smallest and most widespread European bats. Echolocates with FM sweeps ending around 45 kHz; a fast, erratic flier commonly seen at dusk around gardens, hedgerows and waterways.",
+      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/9/93/Zwergfledermaus_%28Pipistrellus_pipistrellus%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+      "imageCredit": "Klaus Krahn, CC BY-SA 4.0, via Wikimedia Commons",
+      "measurements": {
+        "forearmMmRange": {
+          "min": 27,
+          "max": 32
+        },
+        "wingspanCmRange": {
+          "min": 18,
+          "max": 24
+        },
+        "weightGRange": {
+          "min": 3.5,
+          "max": 8.5
+        },
+        "color": "Dark brown fur above, paler brown-buff below; blackish face, ears and wing membranes."
+      },
+      "morphology": {
+        "earType": "Short, rounded, with a blunt tragus",
+        "tailType": "Tail fully enclosed within the tail membrane (uropatagium)",
+        "noseType": "Simple, no nose-leaf",
+        "otherFeatures": [
+          "Keeled calcar",
+          "Fast, jinking flight"
+        ]
+      },
+      "echolocation": {
+        "callType": "FM",
+        "peakFreqHzRange": {
+          "min": 45000,
+          "max": 47000
+        },
+        "characteristicFreqHzRange": {
+          "min": 46000,
+          "max": 46000
+        },
+        "freqHighHzRange": {
+          "min": 60000,
+          "max": 70000
+        },
+        "freqLowHzRange": {
+          "min": 40000,
+          "max": 45000
+        },
+        "durationMsRange": {
+          "min": 4,
+          "max": 8
+        },
+        "notes": "Steep FM sweep ending in a near-flat tail around 46 kHz; distinguishable from Soprano Pipistrelle by ~10 kHz lower Fc."
+      },
+      "conservation": {
+        "iucnStatus": "Least Concern",
+        "localStatus": "Protected in the UK & Ireland under the Wildlife and Countryside Act 1981"
+      },
+      "habits": {
+        "roosting": "Roosts in buildings — roof spaces, soffits, cavity walls — as well as tree holes; maternity colonies can number in the hundreds.",
+        "migration": "Largely sedentary; some short-distance seasonal movement between summer and winter roosts.",
+        "feeding": "Aerial hawking for small Diptera (midges, mosquitoes) along hedgerows, woodland edge and over water; a single bat can eat thousands of insects a night.",
+        "reproduction": "Mates in autumn with delayed fertilisation; females form maternity colonies in late spring, giving birth to a single pup in June/July.",
+        "other": "One of the first bats to emerge at dusk, often within 20 minutes of sunset."
+      },
+      "references": [
+        "Barlow, K.E. & Jones, G. (1997) Function of pipistrelle social calls: field data and a playback experiment. Animal Behaviour, 53(5), 991–999.",
+        "Davidson-Watts, I. & Jones, G. (2006) Differences in foraging behaviour between Pipistrellus pipistrellus and Pipistrellus pygmaeus. Journal of Zoology, 268(1), 55–62.",
+        "Bat Conservation Trust (2023) Common Pipistrelle. bats.org.uk/about-bats/bat-species-in-the-uk/common-pipistrelle"
+      ],
+      "contributors": [
+        {
+          "name": "Niall Bell",
+          "date": "2026-07-01T00:00:00Z",
+          "note": "Created species profile"
+        }
+      ],
+      "group": "Vesper Bat"
+    },
+    {
+      "id": "pteropus-poliocephalus",
+      "commonName": "Grey-headed Flying-fox",
+      "scientificName": "Pteropus poliocephalus",
+      "family": "Pteropodidae",
+      "regions": [
+        "australia-east"
+      ],
+      "summary": "A large fruit bat endemic to eastern Australia with a wingspan up to a metre. Does not echolocate — it navigates by sight and smell, and is a keystone pollinator and seed disperser.",
+      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Grey_headed_flying_fox_-_taking_off_-_AndrewMercer_IMG41558.jpg",
+      "imageCredit": "Andrew Mercer (www.baldwhiteguy.co.nz), CC BY-SA 4.0, via Wikimedia Commons",
+      "measurements": {
+        "forearmMmRange": {
+          "min": 138,
+          "max": 180
+        },
+        "wingspanCmRange": {
+          "min": 100,
+          "max": 100
+        },
+        "weightGRange": {
+          "min": 600,
+          "max": 1000
+        },
+        "color": "Light brown with rufous shoulders and upper back."
+      },
+      "echolocation": {
+        "notes": "Grey-headed flying fox do not echolocate."
+      },
+      "morphology": {
+        "earType": "Small lacking enlarged Tagus features",
+        "noseType": "Simple unlike echolocating bats",
+        "otherFeatures": [
+          "Grey-headed flying fox do not poses the ear and node features found in other bats because they do not echolocate and instead rely on their eyes for navigation."
+        ]
+      },
+      "references": [
+        "DeHaven, C. 2005. \"Pteropus poliocephalus\" (On-line), Animal Diversity Web. Accessed August 27, 2026 at https://animaldiversity.org/accounts/Pteropus_poliocephalus/ Last updated: 2005-03-04 /Generated: 2026-03-29 20:09",
+        "Menkhorst, P.W.; Knight, F. (2011). A field guide to the mammals of Australia (3rd ed.). Melbourne: Oxford University Press. p. 146. ISBN 978-0-19 557395-4."
+      ],
+      "contributors": [
+        {
+          "name": "Niall Bell",
+          "date": "2026-08-28T00:58:27Z",
+          "note": "Added a photo, body measurements, and some info about morphology + references."
+        },
+        {
+          "name": "Niall Bell",
+          "date": "2026-08-28T01:00:22Z",
+          "note": "Added IUCN status."
+        }
+      ],
+      "conservation": {
+        "iucnStatus": "Vulnerable"
+      },
+      "group": "Flying Fox"
+    },
+    {
+      "id": "tadarida-brasiliensis",
+      "commonName": "Mexican Free-tailed Bat",
+      "scientificName": "Tadarida brasiliensis",
+      "order": "Chiroptera",
+      "family": "Molossidae",
+      "regions": [
+        "canada-west",
+        "america-west",
+        "america-east",
+        "mexico-central-america",
+        "caribbean",
+        "south-america-north",
+        "south-america-south"
+      ],
+      "summary": "A free-tailed bat of the family Molossidae — not a vespertilionid like BC's other bats — built for fast, high-altitude flight with long narrow wings and a tail extending well beyond its membrane. Its core range across the southern US, Mexico, and Central and South America hosts the largest bat colonies on Earth (including Bracken Cave, Texas); it is only an accidental vagrant this far north, with the first confirmed BC acoustic records published in 2017.",
+      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Mexican_free-tailed_bat_%288006856842%29.jpg",
+      "imageCredit": "U.S. Fish and Wildlife Service Headquarters, Public domain, via Wikimedia Commons",
+      "measurements": {
+        "forearmMmRange": {
+          "min": 41,
+          "max": 46
+        },
+        "wingspanCmRange": {
+          "min": 28,
+          "max": 33
+        },
+        "weightGRange": {
+          "min": 7,
+          "max": 12
+        },
+        "color": "Short, dense dark brown to grayish-brown fur; muzzle and lips have a characteristic wrinkled appearance."
+      },
+      "morphology": {
+        "earType": "Large, wide, rounded ears that project forward and nearly meet at the midline of the face but are not fused",
+        "tailType": "Long tail extending well beyond the trailing edge of the uropatagium (tail membrane) — the 'free tail' that gives the family and species their name; can approach half the total body length",
+        "noseType": "Simple nose with a distinctly wrinkled muzzle and lips typical of molossid ('wrinkle-lipped') bats, no nose-leaf",
+        "otherFeatures": [
+          "Free tail extending well past the tail membrane — diagnostic for the family Molossidae",
+          "Long, narrow, pointed wings built for fast, high-altitude flight",
+          "Wrinkled muzzle and lips",
+          "Forms the largest bat colonies of any species in the world (e.g., Bracken Cave, Texas)"
+        ]
+      },
+      "echolocation": {
+        "callType": "FM to near-flat, highly variable, often long-duration",
+        "peakFreqHzRange": {
+          "min": 22000,
+          "max": 31000
+        },
+        "characteristicFreqHzRange": {
+          "min": 21000,
+          "max": 28000
+        },
+        "freqHighHzRange": {
+          "min": 18000,
+          "max": 41000
+        },
+        "freqLowHzRange": {
+          "min": 20000,
+          "max": 26000
+        },
+        "durationMsRange": {
+          "min": 9.2,
+          "max": 16
+        },
+        "notes": "Calls are variable, ranging from FM to essentially flat, and can be confused with big brown bat (Eptesicus fuscus), silver-haired bat (Lasionycteris noctivagans), or hoary bat (Lasiurus cinereus). Diagnostic calls show an upswing into the call and a downswing out; long flat calls often peak in power at onset then gradually decline, giving a characteristic 'carrot-shaped' oscillogram. Among the longest-duration search-phase calls of western bats, which helps separate it from short-duration Myotis calls."
+      },
+      "conservation": {
+        "iucnStatus": "Least Concern",
+        "localStatus": "Accidental/vagrant record in BC — not part of the established provincial fauna; bcbats.ca lists BC status as 'Accidental record.' First confirmed acoustic detections in BC published in 2017 (Ommundsen, Lausen & Matthias). Secure (approximately N5/S5) and regarded as one of the most abundant mammals in North America across its core US/Mexico/Central & South American range."
+      },
+      "habits": {
+        "roosting": "Roosts in caves, abandoned mines, bridges, culverts, buildings, bat houses, and hollow trees; forms exceptionally large colonies, sometimes reaching hundreds of thousands to tens of millions of individuals (e.g., Bracken Cave, Texas). Females form maternity colonies in summer while males often roost separately in smaller bachelor colonies.",
+        "migration": "Migratory across much of its North American range, moving seasonally between the central/southern United States and Mexico; BC occurrences are considered accidental vagrant incursions rather than evidence of an established population, possibly linked to favorable wind/weather patterns.",
+        "feeding": "Fast, high-altitude aerial hawker, reaching altitudes over 3,000 m and flight speeds exceeding 60 mph (nearly 100 mph recorded); feeds heavily on moths, including agricultural pests such as corn earworm/cotton bollworm and army cutworm moths, as well as beetles, flies, true bugs, and ants.",
+        "reproduction": "Forms large maternity colonies in summer; typically a single pup per year.",
+        "other": "Provides substantial agricultural pest-control services across its core range; regarded as one of the most abundant mammals in North America."
+      },
+      "references": [
+        "Bat Conservation International, Tadarida brasiliensis — https://www.batcon.org/bat/tadarida-brasiliensis/",
+        "BC Bats (Community Bat Programs of BC), Bat species in BC — https://bcbats.ca/bat-basics/bat-species-in-bc/",
+        "Ommundsen, P., Lausen, C., and Matthias, L. (2017). First Acoustic Records of the Brazilian Free-Tailed Bat (Tadarida brasiliensis) In British Columbia. Northwestern Naturalist — https://www.researchgate.net/publication/319424456",
+        "Szewczak, J., Cal Poly Humboldt Bat Lab, Echolocation Call Characteristics of Western North American Bats (SonoBat), 2024 — https://sonobat.com/download/Western_NA_Bat_Acoustic_Table.pdf"
+      ],
+      "contributors": [
+        {
+          "name": "Niall Bell",
+          "date": "2026-07-01T00:00:00Z",
+          "note": "Created species profile"
+        },
+        {
+          "name": "Niall Bell",
+          "date": "2026-08-20T16:27:41Z",
+          "note": "Updated the photograph."
+        }
+      ],
+      "group": "Free-tailed Bat"
+    }
+  ]
+}
