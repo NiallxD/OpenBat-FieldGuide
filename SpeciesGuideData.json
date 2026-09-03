@@ -797,6 +797,76 @@
       "group": "Vesper Bat"
     },
     {
+      "id": "macroderma-gigas",
+      "commonName": "Ghost Bat",
+      "scientificName": "Macroderma gigas",
+      "regions": [
+        "australia-east",
+        "australia-west"
+      ],
+      "group": "False Vampier Bat",
+      "family": "Megadermatidae",
+      "summary": "The Ghost bat is a False Vampire Bat endemic to northeast and northwest Australia. It is the only bat in the region which is known to feed on large vertebrates such as birds, reptiles, and small mammals. They hunt using a combination of sight, sound, and echolocation, often ambushing prey from a perch.",
+      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/0/06/%281%29Ghost_Bat_078.jpg",
+      "imageCredit": "Sardaka, CC BY-SA 4.0, via Wikimedia Commons",
+      "measurements": {
+        "wingspanCmRange": {
+          "min": 50,
+          "max": 50
+        },
+        "weightGRange": {
+          "min": 75,
+          "max": 145
+        },
+        "color": "Light to dark grey, paler on the front. Pale skin and wing membrane. Dark eyes.",
+        "forearmMmRange": {
+          "min": 96,
+          "max": 112
+        }
+      },
+      "morphology": {
+        "noseType": "Leafed with a large, simple, nose leaf.",
+        "tailType": "None. Absent.",
+        "otherFeatures": [
+          "The lack of a tail is a diagnostic feature of this species."
+        ],
+        "earType": "Large, fluted."
+      },
+      "references": [
+        "Menkhorst, P.W.; Knight, F. (2011). A field guide to the mammals of Australia (3rd ed.). Melbourne: Oxford University Press. p. 146. ISBN 978-0-19-557395-4.",
+        "Guppy, Coles & Pettigrew (1985), Australian Mammalogy 8:299–308.",
+        "https://researchers-admin.westernsydney.edu.au/ws/portalfiles/portal/94926949/uws_71543.pdf",
+        "https://environment.gov.au/cgi-bin/sprat/public/publicspecies.pl?taxon_id=174"
+      ],
+      "echolocation": {
+        "callType": "FM",
+        "notes": "Steeply FM sweep.\nThree to four harmonics, with 2nd and 3rd carrying the most energy.\nPf and Cf not reliably measured. This bat produces very low intensity calls.",
+        "durationMsRange": {
+          "min": 0.8,
+          "max": 2.3
+        },
+        "freqHighHzRange": {
+          "min": 56000,
+          "max": 56000
+        },
+        "freqLowHzRange": {
+          "min": 45000,
+          "max": 45000
+        }
+      },
+      "contributors": [
+        {
+          "name": "Niall Bell",
+          "date": "2026-09-03T07:43:34Z",
+          "note": "Create species profile"
+        }
+      ],
+      "conservation": {
+        "iucnStatus": "Vulnerable",
+        "localStatus": "EPBC Act Listing Status: Vulnerable"
+      }
+    },
+    {
       "id": "myotis-californicus",
       "commonName": "California Myotis",
       "scientificName": "Myotis californicus",
