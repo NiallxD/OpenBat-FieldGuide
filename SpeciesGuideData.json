@@ -1725,7 +1725,7 @@
         "south-america-south"
       ],
       "summary": "A free-tailed bat of the family Molossidae — not a vespertilionid like BC's other bats — built for fast, high-altitude flight with long narrow wings and a tail extending well beyond its membrane. Its core range across the southern US, Mexico, and Central and South America hosts the largest bat colonies on Earth (including Bracken Cave, Texas); it is only an accidental vagrant this far north, with the first confirmed BC acoustic records published in 2017.",
-      "imageURL": "https://www.inaturalist.org/observations/355940403",
+      "imageURL": "https://inaturalist-open-data.s3.amazonaws.com/photos/649112046/original.jpg",
       "imageCredit": "© Alex Boulmay  CC-BY-NC some rights reserved",
       "measurements": {
         "forearmMmRange": {
@@ -1809,6 +1809,11 @@
           "name": "Niall Bell",
           "date": "2026-09-03T04:53:07Z",
           "note": "Added a new photograph."
+        },
+        {
+          "name": "Niall Bell",
+          "date": "2026-09-03T05:38:20Z",
+          "note": "Fixed Broken Photograph,"
         }
       ],
       "group": "Free-tailed Bat"
