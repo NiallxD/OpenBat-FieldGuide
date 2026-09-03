@@ -808,8 +808,8 @@
         "mexico-central-america"
       ],
       "summary": "One of the smallest bats in British Columbia, the California myotis is an erratic, fluttery flier often seen foraging around trees, cliffs, and buildings at dusk. It is widespread and secure through most of the province, tolerating both dry interior valleys and moister coastal forest.",
-      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/7/70/Myotis_californicus.jpg",
-      "imageCredit": "The High Fin Sperm Whale, CC BY-SA 3.0, via Wikimedia Commons",
+      "imageURL": "https://inaturalist-open-data.s3.amazonaws.com/photos/65189369/large.jpeg",
+      "imageCredit": "© Brett CC-BY-NC some rights reserved",
       "measurements": {
         "forearmMmRange": {
           "min": 30,
@@ -883,6 +883,11 @@
           "name": "Niall Bell",
           "date": "2026-07-01T00:00:00Z",
           "note": "Created species profile"
+        },
+        {
+          "name": "Niall Bell",
+          "date": "2026-09-03T04:26:46Z",
+          "note": "Updated to a better photograph."
         }
       ],
       "group": "Vesper Bat"
