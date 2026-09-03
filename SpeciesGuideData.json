@@ -1208,8 +1208,8 @@
         "mexico-central-america"
       ],
       "summary": "One of the larger western Myotis, unmistakable up close for the fringe of stiff hairs lining the trailing edge of its tail membrane. In Canada it is a rare species restricted to a single intermontane valley in south-central BC, where it roosts in caves, mines, cliffs, and old buildings and forages for beetles with slow, highly maneuverable flight near the canopy.",
-      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/8/88/Myotis_Thysanodes_Cluster_%2844290176760%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
-      "imageCredit": "mypubliclands, Public domain, via Wikimedia Commons",
+      "imageURL": "https://inaturalist-open-data.s3.amazonaws.com/photos/444051213/original.jpeg",
+      "imageCredit": "© Brett CC-BY-NC some rights reserved",
       "measurements": {
         "forearmMmRange": {
           "min": 37,
@@ -1282,6 +1282,11 @@
           "name": "Niall Bell",
           "date": "2026-07-01T00:00:00Z",
           "note": "Created species profile"
+        },
+        {
+          "name": "Niall Bell",
+          "date": "2026-09-03T05:04:40Z",
+          "note": "Updated Photograph"
         }
       ],
       "group": "Vesper Bat"
