@@ -1065,9 +1065,16 @@
           "name": "Niall Bell",
           "date": "2026-07-01T00:00:00Z",
           "note": "Created species profile"
+        },
+        {
+          "name": "Niall Bell",
+          "date": "2026-09-03T05:08:46Z",
+          "note": "Updated photo."
         }
       ],
-      "group": "Vesper Bat"
+      "group": "Vesper Bat",
+      "imageURL": "https://inaturalist-open-data.s3.amazonaws.com/photos/34124239/original.jpg",
+      "imageCredit": "© Mike Cong CC-BY-NC some rights reserved"
     },
     {
       "id": "myotis-lucifugus",
