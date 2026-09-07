@@ -1548,9 +1548,16 @@
           "name": "Niall Bell",
           "date": "2026-07-01T00:00:00Z",
           "note": "Created species profile"
+        },
+        {
+          "name": "Niall Bell",
+          "date": "2026-09-07T19:26:30Z",
+          "note": "Updated photograph."
         }
       ],
-      "group": "Vesper Bat"
+      "group": "Vesper Bat",
+      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Myotis_yumanensis_%28Yuma_myotis%29_%2811362476624%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+      "imageCredit": "Daniel Neal from Sacramento, CA, US, CC BY 2.0, via Wikimedia Commons"
     },
     {
       "id": "parastrellus-hesperus",
