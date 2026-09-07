@@ -1055,9 +1055,16 @@
           "name": "Niall Bell",
           "date": "2026-07-01T00:00:00Z",
           "note": "Created species profile"
+        },
+        {
+          "name": "Niall Bell",
+          "date": "2026-09-07T19:25:31Z",
+          "note": "Updated photograph."
         }
       ],
-      "group": "Vesper Bat"
+      "group": "Vesper Bat",
+      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Western_small-footed_bat_%28Myotis_ciliolabrum%29_%28d1d35a43-03fc-404e-92ea-20006f3d0d27%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+      "imageCredit": "English:  NPS Photo, Public domain, via Wikimedia Commons"
     },
     {
       "id": "myotis-evotis",
