@@ -504,9 +504,16 @@
           "name": "Niall Bell",
           "date": "2026-07-01T00:00:00Z",
           "note": "Created species profile"
+        },
+        {
+          "name": "Niall Bell",
+          "date": "2026-09-07T19:24:03Z",
+          "note": "Updated photograph."
         }
       ],
-      "group": "Vesper Bat"
+      "group": "Vesper Bat",
+      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Side_view_of_spotted_bat_-Euderma_maculatum-_by_Paul_Cryan.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+      "imageCredit": "Paul Cryan , U.S. Geological Survey, Public domain, via Wikimedia Commons"
     },
     {
       "id": "lasionycteris-noctivagans",
