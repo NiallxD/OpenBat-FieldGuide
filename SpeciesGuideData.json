@@ -217,9 +217,16 @@
           "name": "Niall Bell",
           "date": "2026-07-01T00:00:00Z",
           "note": "Created species profile"
+        },
+        {
+          "name": "Niall Bell",
+          "date": "2026-09-09T20:51:34Z",
+          "note": "Updated Photo"
         }
       ],
-      "group": "Vesper Bat"
+      "group": "Vesper Bat",
+      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Antrozous-pallidus_iNatObs573810_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+      "imageCredit": "Ken-ichi Ueda, CC BY 4.0, via Wikimedia Commons"
     },
     {
       "id": "corynorhinus-townsendii",
