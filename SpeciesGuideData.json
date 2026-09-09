@@ -818,7 +818,7 @@
         "australia-east",
         "australia-west"
       ],
-      "group": "False Vampier Bat",
+      "group": "False Vampire Bat",
       "family": "Megadermatidae",
       "summary": "The Ghost bat is a False Vampire Bat endemic to northeast and northwest Australia. It is the only bat in the region which is known to feed on large vertebrates such as birds, reptiles, and small mammals. They hunt using a combination of sight, sound, and echolocation, often ambushing prey from a perch.",
       "imageURL": "https://upload.wikimedia.org/wikipedia/commons/0/06/%281%29Ghost_Bat_078.jpg",
@@ -873,6 +873,11 @@
           "name": "Niall Bell",
           "date": "2026-09-03T07:43:34Z",
           "note": "Create species profile"
+        },
+        {
+          "name": "Niall Bell",
+          "date": "2026-09-09T21:22:58Z",
+          "note": "Fixed a typo in the family group name."
         }
       ],
       "conservation": {
