@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "dataVersion": 36,
-  "updatedAt": "2026-09-09T21:33:06Z",
+  "dataVersion": 37,
+  "updatedAt": "2026-09-11T03:41:41Z",
   "regions": [
     {
       "id": "uk-ireland",
@@ -131,6 +131,23 @@
     }
   ],
   "species": [
+    {
+      "id": "anoura-aequatoris",
+      "commonName": "Ecuadorean tailless bat",
+      "scientificName": "Anoura aequatoris",
+      "regions": [
+        "south-america-north"
+      ],
+      "group": "New World leaf-nosed bats",
+      "family": "Phyllostomidae",
+      "contributors": [
+        {
+          "name": "Niall Bell",
+          "date": "2026-09-11T01:53:09Z",
+          "note": "Created species profile."
+        }
+      ]
+    },
     {
       "id": "antrozous-pallidus",
       "commonName": "Pallid Bat",
