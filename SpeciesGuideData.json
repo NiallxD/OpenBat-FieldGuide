@@ -326,6 +326,25 @@
       "group": "Vesper Bat"
     },
     {
+      "id": "dermanura-anderseni",
+      "commonName": "Andersen's fruit-eating bat",
+      "scientificName": "Dermanura anderseni",
+      "regions": [
+        "south-america-north"
+      ],
+      "family": "Phyllostomidae",
+      "group": "New World leaf-nosed bat",
+      "imageCredit": "© Manuel Ruedi, CC-BY-NC, some rights reserved",
+      "imageURL": "https://inaturalist-open-data.s3.amazonaws.com/photos/333412642/large.jpeg",
+      "contributors": [
+        {
+          "name": "Niall Bell",
+          "date": "2026-09-11T01:23:09Z",
+          "note": "Created Species Profile"
+        }
+      ]
+    },
+    {
       "id": "eptesicus-fuscus",
       "commonName": "Big Brown Bat",
       "scientificName": "Eptesicus fuscus",
