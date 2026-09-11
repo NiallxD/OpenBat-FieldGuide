@@ -132,6 +132,23 @@
   ],
   "species": [
     {
+      "id": "anoura-aequatoris",
+      "commonName": "Ecuadorean tailless bat",
+      "scientificName": "Anoura aequatoris",
+      "regions": [
+        "south-america-north"
+      ],
+      "group": "New World leaf-nosed bats",
+      "family": "Phyllostomidae",
+      "contributors": [
+        {
+          "name": "Niall Bell",
+          "date": "2026-09-11T01:53:09Z",
+          "note": "Created species profile."
+        }
+      ]
+    },
+    {
       "id": "antrozous-pallidus",
       "commonName": "Pallid Bat",
       "scientificName": "Antrozous pallidus",
