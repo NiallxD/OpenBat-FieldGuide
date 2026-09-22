@@ -1849,6 +1849,29 @@
       "group": "Flying Fox"
     },
     {
+      "id": "rhinolophus-ferrumequinum",
+      "commonName": "Greater Horseshoe Bat",
+      "scientificName": "Rhinolophus ferrumequinum",
+      "regions": [
+        "uk-ireland",
+        "continental-europe",
+        "central-asia",
+        "east-asia"
+      ],
+      "order": "Chiroptera",
+      "family": "Rhinolophidae",
+      "group": "Horseshoe Bat",
+      "imageURL": "https://inaturalist-open-data.s3.amazonaws.com/photos/87171940/large.jpeg",
+      "imageCredit": "© Manuel Ruedi CC-BY-NC some rights reserved",
+      "contributors": [
+        {
+          "name": "Niall Bell",
+          "date": "2026-09-21T22:54:54Z",
+          "note": "Created species profile."
+        }
+      ]
+    },
+    {
       "id": "saccopteryx-gymnura",
       "commonName": "Amazonian sac-winged bat",
       "scientificName": "Saccopteryx gymnura",
